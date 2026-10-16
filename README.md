@@ -1,75 +1,67 @@
-# YieldGrid CBP UML Documentation Package
+# YieldGrid — Farm-to-Retail Inventory Management
 
-This directory contains the professional, course-compliant UML documentation package for **YieldGrid — Application for Farm-to-Retail Inventory Management**.
+This repository contains the system analysis and design deliverables for YieldGrid, a farm-to-retail inventory management application. It includes eight StarUML diagrams, PNG previews, prototype screenshots, and a presentation.
 
-## Directory Structure
+## Repository contents
 
-```
-YieldGrid-CBP-Final/
-├── README.md                              <- Top-level project guide & instructions
-├── reference/
-│   └── style-only/                        <- Reference screenshots (visual formatting only)
-├── batch-01/                              <- Batch 1 StarUML Models (Complete)
+```text
+.
+├── README.md
+├── YieldGrid_CBP_Presentation.pptx
+├── diagrams/                 # Editable StarUML project files (.mdj)
 │   ├── 01_Use_Case_Diagram.mdj
 │   ├── 02_Activity_Diagram.mdj
-│   └── 03_Class_Diagram.mdj
-├── batch-02/                              <- Batch 2 StarUML Models (Complete)
+│   ├── 03_Class_Diagram.mdj
 │   ├── 04_Sequence_Diagram.mdj
 │   ├── 05_Communication_Diagram.mdj
-│   └── 06_State_Chart_Diagram.mdj
-├── batch-03/                              <- Batch 3 StarUML Models (Complete)
+│   ├── 06_State_Chart_Diagram.mdj
 │   ├── 07_Component_Diagram.mdj
 │   └── 08_Deployment_Diagram.mdj
-├── previews/
-│   ├── batch-01/                          <- Batch 1 Rendered High-Resolution PNGs
-│   │   ├── 01_Use_Case_Diagram.png
-│   │   ├── 02_Activity_Diagram.png
-│   │   └── 03_Class_Diagram.png
-│   ├── batch-02/                          <- Batch 2 Rendered High-Resolution PNGs
-│   │   ├── 04_Sequence_Diagram.png
-│   │   ├── 05_Communication_Diagram.png
-│   │   └── 06_State_Chart_Diagram.png
-│   └── batch-03/                          <- Batch 3 Rendered High-Resolution PNGs
-│       ├── 07_Component_Diagram.png
-│       └── 08_Deployment_Diagram.png
-└── validation/
-    ├── batch_01_validation.md             <- Comprehensive validation report for Batch 1
-    └── batch_03_validation.md             <- Comprehensive validation report for Batch 3
+└── images/
+    ├── 01_Use_Case_Diagram.png
+    ├── 02_Activity_Diagram.png
+    ├── 03_Class_Diagram.png
+    ├── 04_Sequence_Diagram.png
+    ├── 05_Communication_Diagram.png
+    ├── 06_State_Chart_Diagram.png
+    ├── 07_Component_Diagram.png
+    ├── 08_Deployment_Diagram.png
+    └── prototype_images/      # Application prototype screenshots
 ```
 
-## Complete UML Diagram Suite (8 Diagrams)
+## UML diagrams
 
-| # | Diagram Name | Batch | Native StarUML Project | Rendered Preview PNG |
-|---|---|---|---|---|
-| 01 | Use Case Diagram | Batch 1 | `batch-01/01_Use_Case_Diagram.mdj` | `previews/batch-01/01_Use_Case_Diagram.png` |
-| 02 | Activity Diagram | Batch 1 | `batch-01/02_Activity_Diagram.mdj` | `previews/batch-01/02_Activity_Diagram.png` |
-| 03 | Class Diagram | Batch 1 | `batch-01/03_Class_Diagram.mdj` | `previews/batch-01/03_Class_Diagram.png` |
-| 04 | Sequence Diagram | Batch 2 | `batch-02/04_Sequence_Diagram.mdj` | `previews/batch-02/04_Sequence_Diagram.png` |
-| 05 | Communication Diagram | Batch 2 | `batch-02/05_Communication_Diagram.mdj` | `previews/batch-02/05_Communication_Diagram.png` |
-| 06 | State Chart Diagram | Batch 2 | `batch-02/06_State_Chart_Diagram.mdj` | `previews/batch-02/06_State_Chart_Diagram.png` |
-| 07 | Component Diagram | Batch 3 | `batch-03/07_Component_Diagram.mdj` | `previews/batch-03/07_Component_Diagram.png` |
-| 08 | Deployment Diagram | Batch 3 | `batch-03/08_Deployment_Diagram.mdj` | `previews/batch-03/08_Deployment_Diagram.png` |
+Open a PNG preview or download the matching `.mdj` file to view and edit it in StarUML.
 
-## How to Open and Edit Diagrams in StarUML
+| # | Diagram | Editable StarUML file | PNG preview |
+|---|---|---|---|
+| 01 | Use Case | [`diagrams/01_Use_Case_Diagram.mdj`](diagrams/01_Use_Case_Diagram.mdj) | [View](images/01_Use_Case_Diagram.png) |
+| 02 | Activity | [`diagrams/02_Activity_Diagram.mdj`](diagrams/02_Activity_Diagram.mdj) | [View](images/02_Activity_Diagram.png) |
+| 03 | Class | [`diagrams/03_Class_Diagram.mdj`](diagrams/03_Class_Diagram.mdj) | [View](images/03_Class_Diagram.png) |
+| 04 | Sequence | [`diagrams/04_Sequence_Diagram.mdj`](diagrams/04_Sequence_Diagram.mdj) | [View](images/04_Sequence_Diagram.png) |
+| 05 | Communication | [`diagrams/05_Communication_Diagram.mdj`](diagrams/05_Communication_Diagram.mdj) | [View](images/05_Communication_Diagram.png) |
+| 06 | State Chart | [`diagrams/06_State_Chart_Diagram.mdj`](diagrams/06_State_Chart_Diagram.mdj) | [View](images/06_State_Chart_Diagram.png) |
+| 07 | Component | [`diagrams/07_Component_Diagram.mdj`](diagrams/07_Component_Diagram.mdj) | [View](images/07_Component_Diagram.png) |
+| 08 | Deployment | [`diagrams/08_Deployment_Diagram.mdj`](diagrams/08_Deployment_Diagram.mdj) | [View](images/08_Deployment_Diagram.png) |
 
-1. Start **StarUML**.
-2. Open **File -> Open...** and browse to `YieldGrid-CBP-Final/batch-01/`, `batch-02/`, or `batch-03/`.
-3. Select any `.mdj` project file.
-4. You can edit nodes, modify properties, adjust layouts, or re-export images at any time.
+## Open and edit the diagrams
 
-## Visual Design Standards
+1. Open StarUML.
+2. Select **File → Open...** and choose a `.mdj` file from the `diagrams/` folder.
+3. Edit the diagram in StarUML. The corresponding PNG previews are stored in `images/`.
 
-- **Overall Canvas:** Light neutral grey (`#F3F4F6`)
-- **System Boundary / Header:** Deep navy / dark charcoal (`#1E3A8A` / `#0F172A`)
-- **Farmer Responsibility:** Light olive-green (`#D9F99D`) with forest-green border (`#4D7C0F`)
-- **Customer Responsibility:** Light cyan (`#A5F3FC`) with dark cyan border (`#0891B2`)
-- **Administrator Responsibility:** Soft lavender (`#EDE9FE`) with royal-purple border (`#7C3AED`)
-- **Application & UI:** Pale blue (`#BFDBFE`) with royal-blue border (`#2563EB`)
-- **Business Services:** Mint green (`#DCFCE7`) with green border (`#16A34A`)
-- **Domain Models:** Warm pastel yellow (`#FEF3C7`) with amber border (`#D97706`)
-- **Persistence & DAOs:** Lavender purple (`#EDE9FE`) with purple border (`#7C3AED`)
-- **Database & Storage:** Soft peach / warm orange (`#FFEDD5` / `#FED7AA`) with deep orange border (`#EA580C` / `#C2410C`)
-- **Neutral Containers:** Neutral grey (`#E5E7EB` / `#F3F4F6`) with grey border (`#6B7280`)
+## Visual design palette
 
----
-*Created strictly for YieldGrid Farm-to-Retail Inventory Management.*
+The diagrams use a consistent palette:
+
+- Canvas: light neutral grey (`#F3F4F6`)
+- System boundary and headers: deep navy or charcoal (`#1E3A8A`, `#0F172A`)
+- Farmer responsibility: light olive green with forest-green border (`#D9F99D`, `#4D7C0F`)
+- Customer responsibility: light cyan with dark-cyan border (`#A5F3FC`, `#0891B2`)
+- Administrator responsibility: soft lavender with royal-purple border (`#EDE9FE`, `#7C3AED`)
+- Application and UI: pale blue with royal-blue border (`#BFDBFE`, `#2563EB`)
+- Business services: mint green with green border (`#DCFCE7`, `#16A34A`)
+- Domain models: warm pastel yellow with amber border (`#FEF3C7`, `#D97706`)
+- Persistence and DAOs: lavender purple with purple border (`#EDE9FE`, `#7C3AED`)
+- Database and storage: soft peach/orange with deep-orange border (`#FFEDD5`, `#FED7AA`, `#EA580C`, `#C2410C`)
+- Neutral containers: neutral grey with grey border (`#E5E7EB`, `#F3F4F6`, `#6B7280`)
