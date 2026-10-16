@@ -1,0 +1,5980 @@
+{
+	"_type": "Project",
+	"_id": "PROJ_YG_COMP",
+	"name": "YieldGrid_Component_Diagram",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "MOD_YG_COMP",
+			"_parent": {
+				"$ref": "PROJ_YG_COMP"
+			},
+			"name": "ComponentModel",
+			"ownedElements": [
+				{
+					"_type": "UMLComponentDiagram",
+					"_id": "DIAG_YG_COMP",
+					"_parent": {
+						"$ref": "MOD_YG_COMP"
+					},
+					"name": "07_Component_Diagram",
+					"ownedViews": [
+						{
+							"_type": "RectangleView",
+							"_id": "V_CANVAS_BG",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"lineColor": "#D1D5DB",
+							"fillColor": "#F3F4F6",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 20,
+							"top": 20,
+							"width": 1740,
+							"height": 1160
+						},
+						{
+							"_type": "RectangleView",
+							"_id": "V_BANNER_BG",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"lineColor": "#1E40AF",
+							"fillColor": "#1E3A8A",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 40,
+							"top": 35,
+							"width": 1700,
+							"height": 65
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "V_BANNER_TITLE",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"fontColor": "#FFFFFF",
+							"font": "Arial;16;1",
+							"parentStyle": false,
+							"left": 60,
+							"top": 45,
+							"width": 924,
+							"height": 28,
+							"text": "YIELDGRID — COMPONENT ARCHITECTURE DIAGRAM"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "V_BANNER_SUBTITLE",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"fontColor": "#BFDBFE",
+							"font": "Arial;10;0",
+							"parentStyle": false,
+							"left": 60,
+							"top": 73,
+							"width": 1300,
+							"height": 22,
+							"text": "Course-Based Project (CBP) | Layered Software Components, DAOs, Model Entities & JDBC/MySQL Persistence"
+						},
+						{
+							"_type": "RectangleView",
+							"_id": "V_LYR_UI_BG",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"lineColor": "#2563EB",
+							"fillColor": "#EFF6FF",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 40,
+							"top": 115,
+							"width": 1700,
+							"height": 230
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "V_LYR_UI_TITLE",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"fontColor": "#1E40AF",
+							"font": "Arial;12;1",
+							"parentStyle": false,
+							"left": 60,
+							"top": 125,
+							"width": 800,
+							"height": 25,
+							"text": "1. PRESENTATION & UI LAYER (Java Swing Desktop GUI)"
+						},
+						{
+							"_type": "RectangleView",
+							"_id": "V_LYR_SVC_BG",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"lineColor": "#16A34A",
+							"fillColor": "#F0FDF4",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 40,
+							"top": 365,
+							"width": 1700,
+							"height": 230
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "V_LYR_SVC_TITLE",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"fontColor": "#166534",
+							"font": "Arial;12;1",
+							"parentStyle": false,
+							"left": 60,
+							"top": 375,
+							"width": 800,
+							"height": 25,
+							"text": "2. BUSINESS & APPLICATION SERVICE LAYER (Business Rules & Orchestration)"
+						},
+						{
+							"_type": "RectangleView",
+							"_id": "V_LYR_DAO_BG",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"lineColor": "#D97706",
+							"fillColor": "#FFFBEB",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 40,
+							"top": 615,
+							"width": 1700,
+							"height": 240
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "V_LYR_DAO_TITLE",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"fontColor": "#92400E",
+							"font": "Arial;12;1",
+							"parentStyle": false,
+							"left": 60,
+							"top": 625,
+							"width": 800,
+							"height": 25,
+							"text": "3. DOMAIN MODEL & DATA ACCESS LAYER (Entities & JDBC DAOs)"
+						},
+						{
+							"_type": "RectangleView",
+							"_id": "V_LYR_DB_BG",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"lineColor": "#EA580C",
+							"fillColor": "#FFF7ED",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 40,
+							"top": 875,
+							"width": 1700,
+							"height": 240
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "V_LYR_DB_TITLE",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"fontColor": "#9A3412",
+							"font": "Arial;12;1",
+							"parentStyle": false,
+							"left": 60,
+							"top": 885,
+							"width": 800,
+							"height": 25,
+							"text": "4. PERSISTENCE & DATABASE CONNECTIVITY LAYER (JDBC & MySQL Relational Storage)"
+						},
+						{
+							"_type": "UMLComponentView",
+							"_id": "V_CMP_AUTH_UI",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "M_CMP_AUTH_UI"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQmy/XSu7434=",
+									"_parent": {
+										"$ref": "V_CMP_AUTH_UI"
+									},
+									"model": {
+										"$ref": "M_CMP_AUTH_UI"
+									},
+									"lineColor": "#2563EB",
+									"fillColor": "#BFDBFE",
+									"fontColor": "#1E3A8A",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 90,
+									"top": 205,
+									"width": 361,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQmy/XSu8ay4=",
+									"_parent": {
+										"$ref": "V_CMP_AUTH_UI"
+									},
+									"model": {
+										"$ref": "M_CMP_AUTH_UI"
+									},
+									"lineColor": "#2563EB",
+									"fillColor": "#BFDBFE",
+									"fontColor": "#1E3A8A",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 90,
+									"top": 215,
+									"width": 361,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQmy/XSu9Sxo=",
+									"_parent": {
+										"$ref": "V_CMP_AUTH_UI"
+									},
+									"model": {
+										"$ref": "M_CMP_AUTH_UI"
+									},
+									"visible": false,
+									"lineColor": "#2563EB",
+									"fillColor": "#BFDBFE",
+									"fontColor": "#1E3A8A",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQmy/XSu+g4Y=",
+									"_parent": {
+										"$ref": "V_CMP_AUTH_UI"
+									},
+									"model": {
+										"$ref": "M_CMP_AUTH_UI"
+									},
+									"visible": false,
+									"lineColor": "#2563EB",
+									"fillColor": "#BFDBFE",
+									"fontColor": "#1E3A8A",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_CMP_AUTH_UI",
+									"_parent": {
+										"$ref": "V_CMP_AUTH_UI"
+									},
+									"model": {
+										"$ref": "M_CMP_AUTH_UI"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/XSvA3Jg=",
+											"_parent": {
+												"$ref": "NM_CMP_AUTH_UI"
+											},
+											"visible": false,
+											"lineColor": "#2563EB",
+											"fillColor": "#BFDBFE",
+											"fontColor": "#1E3A8A",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/XSvCDgY=",
+											"_parent": {
+												"$ref": "NM_CMP_AUTH_UI"
+											},
+											"visible": false,
+											"lineColor": "#2563EB",
+											"fillColor": "#BFDBFE",
+											"fontColor": "#1E3A8A",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 140.88623046875,
+											"height": 13,
+											"text": "(from ComponentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/XSvDb98=",
+											"_parent": {
+												"$ref": "NM_CMP_AUTH_UI"
+											},
+											"visible": false,
+											"lineColor": "#2563EB",
+											"fillColor": "#BFDBFE",
+											"fontColor": "#1E3A8A",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_CMP_AUTH_UI",
+											"_parent": {
+												"$ref": "NM_CMP_AUTH_UI"
+											},
+											"lineColor": "#2563EB",
+											"fillColor": "#BFDBFE",
+											"fontColor": "#1E3A8A",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 95,
+											"top": 172,
+											"width": 351,
+											"height": 13,
+											"text": "«component»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_CMP_AUTH_UI",
+											"_parent": {
+												"$ref": "NM_CMP_AUTH_UI"
+											},
+											"lineColor": "#2563EB",
+											"fillColor": "#BFDBFE",
+											"fontColor": "#1E3A8A",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 95,
+											"top": 187,
+											"width": 351,
+											"height": 13,
+											"text": "Authentication & Access UI"
+										}
+									],
+									"lineColor": "#2563EB",
+									"fillColor": "#BFDBFE",
+									"fontColor": "#1E3A8A",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 90,
+									"top": 165,
+									"width": 361,
+									"height": 40,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGhQmy/XSvA3Jg="
+									},
+									"nameLabel": {
+										"$ref": "LBL_CMP_AUTH_UI"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQmy/XSvCDgY="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQmy/XSvDb98="
+									}
+								}
+							],
+							"lineColor": "#2563EB",
+							"fillColor": "#BFDBFE",
+							"fontColor": "#1E3A8A",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 70,
+							"top": 165,
+							"width": 380,
+							"height": 115,
+							"nameCompartment": {
+								"$ref": "NM_CMP_AUTH_UI"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQmy/XSu7434="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQmy/XSu8ay4="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQmy/XSu9Sxo="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQmy/XSu+g4Y="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_DESC_CMP_AUTH_UI",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"fontColor": "#1F2937",
+							"font": "Arial;9;0",
+							"parentStyle": false,
+							"left": 82,
+							"top": 211,
+							"width": 356,
+							"height": 65,
+							"text": "Classes: LoginFrame, RegisterFrame, UITheme\nRole: User login, registration, role redirection"
+						},
+						{
+							"_type": "UMLComponentView",
+							"_id": "V_CMP_FARMER_UI",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "M_CMP_FARMER_UI"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQmy/XivNhqw=",
+									"_parent": {
+										"$ref": "V_CMP_FARMER_UI"
+									},
+									"model": {
+										"$ref": "M_CMP_FARMER_UI"
+									},
+									"lineColor": "#4D7C0F",
+									"fillColor": "#D9F99D",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 510,
+									"top": 205,
+									"width": 361,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQmy/XivO7+M=",
+									"_parent": {
+										"$ref": "V_CMP_FARMER_UI"
+									},
+									"model": {
+										"$ref": "M_CMP_FARMER_UI"
+									},
+									"lineColor": "#4D7C0F",
+									"fillColor": "#D9F99D",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 510,
+									"top": 215,
+									"width": 361,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQmy/XivPxcw=",
+									"_parent": {
+										"$ref": "V_CMP_FARMER_UI"
+									},
+									"model": {
+										"$ref": "M_CMP_FARMER_UI"
+									},
+									"visible": false,
+									"lineColor": "#4D7C0F",
+									"fillColor": "#D9F99D",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQmy/XivQ63E=",
+									"_parent": {
+										"$ref": "V_CMP_FARMER_UI"
+									},
+									"model": {
+										"$ref": "M_CMP_FARMER_UI"
+									},
+									"visible": false,
+									"lineColor": "#4D7C0F",
+									"fillColor": "#D9F99D",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_CMP_FARMER_UI",
+									"_parent": {
+										"$ref": "V_CMP_FARMER_UI"
+									},
+									"model": {
+										"$ref": "M_CMP_FARMER_UI"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/XivSEtM=",
+											"_parent": {
+												"$ref": "NM_CMP_FARMER_UI"
+											},
+											"visible": false,
+											"lineColor": "#4D7C0F",
+											"fillColor": "#D9F99D",
+											"fontColor": "#14532D",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/XivUrJM=",
+											"_parent": {
+												"$ref": "NM_CMP_FARMER_UI"
+											},
+											"visible": false,
+											"lineColor": "#4D7C0F",
+											"fillColor": "#D9F99D",
+											"fontColor": "#14532D",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 140.88623046875,
+											"height": 13,
+											"text": "(from ComponentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/XivVD74=",
+											"_parent": {
+												"$ref": "NM_CMP_FARMER_UI"
+											},
+											"visible": false,
+											"lineColor": "#4D7C0F",
+											"fillColor": "#D9F99D",
+											"fontColor": "#14532D",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_CMP_FARMER_UI",
+											"_parent": {
+												"$ref": "NM_CMP_FARMER_UI"
+											},
+											"lineColor": "#4D7C0F",
+											"fillColor": "#D9F99D",
+											"fontColor": "#14532D",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 515,
+											"top": 172,
+											"width": 351,
+											"height": 13,
+											"text": "«component»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_CMP_FARMER_UI",
+											"_parent": {
+												"$ref": "NM_CMP_FARMER_UI"
+											},
+											"lineColor": "#4D7C0F",
+											"fillColor": "#D9F99D",
+											"fontColor": "#14532D",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 515,
+											"top": 187,
+											"width": 351,
+											"height": 13,
+											"text": "Farmer Operations UI"
+										}
+									],
+									"lineColor": "#4D7C0F",
+									"fillColor": "#D9F99D",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 510,
+									"top": 165,
+									"width": 361,
+									"height": 40,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGhQmy/XivSEtM="
+									},
+									"nameLabel": {
+										"$ref": "LBL_CMP_FARMER_UI"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQmy/XivUrJM="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQmy/XivVD74="
+									}
+								}
+							],
+							"lineColor": "#4D7C0F",
+							"fillColor": "#D9F99D",
+							"fontColor": "#14532D",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 490,
+							"top": 165,
+							"width": 380,
+							"height": 115,
+							"nameCompartment": {
+								"$ref": "NM_CMP_FARMER_UI"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQmy/XivNhqw="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQmy/XivO7+M="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQmy/XivPxcw="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQmy/XivQ63E="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_DESC_CMP_FARMER_UI",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"fontColor": "#1F2937",
+							"font": "Arial;9;0",
+							"parentStyle": false,
+							"left": 502,
+							"top": 211,
+							"width": 356,
+							"height": 65,
+							"text": "Classes: FarmerDashboard, CropManagementPanel,\nOrdersPanel, RevenuePanel\nRole: Crop inventory, order fulfillment, earnings"
+						},
+						{
+							"_type": "UMLComponentView",
+							"_id": "V_CMP_CUSTOMER_UI",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "M_CMP_CUSTOMER_UI"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQmy/XivfeIY=",
+									"_parent": {
+										"$ref": "V_CMP_CUSTOMER_UI"
+									},
+									"model": {
+										"$ref": "M_CMP_CUSTOMER_UI"
+									},
+									"lineColor": "#0891B2",
+									"fillColor": "#A5F3FC",
+									"fontColor": "#164E63",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 930,
+									"top": 205,
+									"width": 361,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQmy/XivgO4k=",
+									"_parent": {
+										"$ref": "V_CMP_CUSTOMER_UI"
+									},
+									"model": {
+										"$ref": "M_CMP_CUSTOMER_UI"
+									},
+									"lineColor": "#0891B2",
+									"fillColor": "#A5F3FC",
+									"fontColor": "#164E63",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 930,
+									"top": 215,
+									"width": 361,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQmy/Xivhb1A=",
+									"_parent": {
+										"$ref": "V_CMP_CUSTOMER_UI"
+									},
+									"model": {
+										"$ref": "M_CMP_CUSTOMER_UI"
+									},
+									"visible": false,
+									"lineColor": "#0891B2",
+									"fillColor": "#A5F3FC",
+									"fontColor": "#164E63",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQmy/XiviW3g=",
+									"_parent": {
+										"$ref": "V_CMP_CUSTOMER_UI"
+									},
+									"model": {
+										"$ref": "M_CMP_CUSTOMER_UI"
+									},
+									"visible": false,
+									"lineColor": "#0891B2",
+									"fillColor": "#A5F3FC",
+									"fontColor": "#164E63",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_CMP_CUSTOMER_UI",
+									"_parent": {
+										"$ref": "V_CMP_CUSTOMER_UI"
+									},
+									"model": {
+										"$ref": "M_CMP_CUSTOMER_UI"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/Xivk4qI=",
+											"_parent": {
+												"$ref": "NM_CMP_CUSTOMER_UI"
+											},
+											"visible": false,
+											"lineColor": "#0891B2",
+											"fillColor": "#A5F3FC",
+											"fontColor": "#164E63",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/XivmaXQ=",
+											"_parent": {
+												"$ref": "NM_CMP_CUSTOMER_UI"
+											},
+											"visible": false,
+											"lineColor": "#0891B2",
+											"fillColor": "#A5F3FC",
+											"fontColor": "#164E63",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 140.88623046875,
+											"height": 13,
+											"text": "(from ComponentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/XivnxMg=",
+											"_parent": {
+												"$ref": "NM_CMP_CUSTOMER_UI"
+											},
+											"visible": false,
+											"lineColor": "#0891B2",
+											"fillColor": "#A5F3FC",
+											"fontColor": "#164E63",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_CMP_CUSTOMER_UI",
+											"_parent": {
+												"$ref": "NM_CMP_CUSTOMER_UI"
+											},
+											"lineColor": "#0891B2",
+											"fillColor": "#A5F3FC",
+											"fontColor": "#164E63",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 935,
+											"top": 172,
+											"width": 351,
+											"height": 13,
+											"text": "«component»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_CMP_CUSTOMER_UI",
+											"_parent": {
+												"$ref": "NM_CMP_CUSTOMER_UI"
+											},
+											"lineColor": "#0891B2",
+											"fillColor": "#A5F3FC",
+											"fontColor": "#164E63",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 935,
+											"top": 187,
+											"width": 351,
+											"height": 13,
+											"text": "Customer Marketplace UI"
+										}
+									],
+									"lineColor": "#0891B2",
+									"fillColor": "#A5F3FC",
+									"fontColor": "#164E63",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 930,
+									"top": 165,
+									"width": 361,
+									"height": 40,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGhQmy/Xivk4qI="
+									},
+									"nameLabel": {
+										"$ref": "LBL_CMP_CUSTOMER_UI"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQmy/XivmaXQ="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQmy/XivnxMg="
+									}
+								}
+							],
+							"lineColor": "#0891B2",
+							"fillColor": "#A5F3FC",
+							"fontColor": "#164E63",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 910,
+							"top": 165,
+							"width": 380,
+							"height": 115,
+							"nameCompartment": {
+								"$ref": "NM_CMP_CUSTOMER_UI"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQmy/XivfeIY="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQmy/XivgO4k="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQmy/Xivhb1A="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQmy/XiviW3g="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_DESC_CMP_CUSTOMER_UI",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"fontColor": "#1F2937",
+							"font": "Arial;9;0",
+							"parentStyle": false,
+							"left": 922,
+							"top": 211,
+							"width": 356,
+							"height": 65,
+							"text": "Classes: CustomerDashboard, CropBrowsePanel,\nCartPanel, OrdersPanel\nRole: Catalog browsing, shopping cart, checkout"
+						},
+						{
+							"_type": "UMLComponentView",
+							"_id": "V_CMP_ADMIN_UI",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "M_CMP_ADMIN_UI"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQmy/XivxRX4=",
+									"_parent": {
+										"$ref": "V_CMP_ADMIN_UI"
+									},
+									"model": {
+										"$ref": "M_CMP_ADMIN_UI"
+									},
+									"lineColor": "#2563EB",
+									"fillColor": "#BFDBFE",
+									"fontColor": "#1E3A8A",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1350,
+									"top": 205,
+									"width": 351,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQmy/XivyxYo=",
+									"_parent": {
+										"$ref": "V_CMP_ADMIN_UI"
+									},
+									"model": {
+										"$ref": "M_CMP_ADMIN_UI"
+									},
+									"lineColor": "#2563EB",
+									"fillColor": "#BFDBFE",
+									"fontColor": "#1E3A8A",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1350,
+									"top": 215,
+									"width": 351,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQmy/XivzYC8=",
+									"_parent": {
+										"$ref": "V_CMP_ADMIN_UI"
+									},
+									"model": {
+										"$ref": "M_CMP_ADMIN_UI"
+									},
+									"visible": false,
+									"lineColor": "#2563EB",
+									"fillColor": "#BFDBFE",
+									"fontColor": "#1E3A8A",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQmy/Xiv0uc0=",
+									"_parent": {
+										"$ref": "V_CMP_ADMIN_UI"
+									},
+									"model": {
+										"$ref": "M_CMP_ADMIN_UI"
+									},
+									"visible": false,
+									"lineColor": "#2563EB",
+									"fillColor": "#BFDBFE",
+									"fontColor": "#1E3A8A",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_CMP_ADMIN_UI",
+									"_parent": {
+										"$ref": "V_CMP_ADMIN_UI"
+									},
+									"model": {
+										"$ref": "M_CMP_ADMIN_UI"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/Xiv2RHk=",
+											"_parent": {
+												"$ref": "NM_CMP_ADMIN_UI"
+											},
+											"visible": false,
+											"lineColor": "#2563EB",
+											"fillColor": "#BFDBFE",
+											"fontColor": "#1E3A8A",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/Xiv4MN8=",
+											"_parent": {
+												"$ref": "NM_CMP_ADMIN_UI"
+											},
+											"visible": false,
+											"lineColor": "#2563EB",
+											"fillColor": "#BFDBFE",
+											"fontColor": "#1E3A8A",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 140.88623046875,
+											"height": 13,
+											"text": "(from ComponentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/Xiv5tOM=",
+											"_parent": {
+												"$ref": "NM_CMP_ADMIN_UI"
+											},
+											"visible": false,
+											"lineColor": "#2563EB",
+											"fillColor": "#BFDBFE",
+											"fontColor": "#1E3A8A",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_CMP_ADMIN_UI",
+											"_parent": {
+												"$ref": "NM_CMP_ADMIN_UI"
+											},
+											"lineColor": "#2563EB",
+											"fillColor": "#BFDBFE",
+											"fontColor": "#1E3A8A",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 1355,
+											"top": 172,
+											"width": 341,
+											"height": 13,
+											"text": "«component»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_CMP_ADMIN_UI",
+											"_parent": {
+												"$ref": "NM_CMP_ADMIN_UI"
+											},
+											"lineColor": "#2563EB",
+											"fillColor": "#BFDBFE",
+											"fontColor": "#1E3A8A",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 1355,
+											"top": 187,
+											"width": 341,
+											"height": 13,
+											"text": "System Administration UI"
+										}
+									],
+									"lineColor": "#2563EB",
+									"fillColor": "#BFDBFE",
+									"fontColor": "#1E3A8A",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1350,
+									"top": 165,
+									"width": 351,
+									"height": 40,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGhQmy/Xiv2RHk="
+									},
+									"nameLabel": {
+										"$ref": "LBL_CMP_ADMIN_UI"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQmy/Xiv4MN8="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQmy/Xiv5tOM="
+									}
+								}
+							],
+							"lineColor": "#2563EB",
+							"fillColor": "#BFDBFE",
+							"fontColor": "#1E3A8A",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 1330,
+							"top": 165,
+							"width": 370,
+							"height": 115,
+							"nameCompartment": {
+								"$ref": "NM_CMP_ADMIN_UI"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQmy/XivxRX4="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQmy/XivyxYo="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQmy/XivzYC8="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQmy/Xiv0uc0="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_DESC_CMP_ADMIN_UI",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"fontColor": "#1F2937",
+							"font": "Arial;9;0",
+							"parentStyle": false,
+							"left": 1342,
+							"top": 211,
+							"width": 346,
+							"height": 65,
+							"text": "Classes: AdminDashboard, ProfilePanel,\nMultithreadingDemo\nRole: User oversight, data exports, platform health"
+						},
+						{
+							"_type": "UMLComponentView",
+							"_id": "V_CMP_AUTH_SVC",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "M_CMP_AUTH_SVC"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQmy/XiwDXuU=",
+									"_parent": {
+										"$ref": "V_CMP_AUTH_SVC"
+									},
+									"model": {
+										"$ref": "M_CMP_AUTH_SVC"
+									},
+									"lineColor": "#16A34A",
+									"fillColor": "#DCFCE7",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 90,
+									"top": 455,
+									"width": 361,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQmy/XiwE+10=",
+									"_parent": {
+										"$ref": "V_CMP_AUTH_SVC"
+									},
+									"model": {
+										"$ref": "M_CMP_AUTH_SVC"
+									},
+									"lineColor": "#16A34A",
+									"fillColor": "#DCFCE7",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 90,
+									"top": 465,
+									"width": 361,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQmy/XiwFmrU=",
+									"_parent": {
+										"$ref": "V_CMP_AUTH_SVC"
+									},
+									"model": {
+										"$ref": "M_CMP_AUTH_SVC"
+									},
+									"visible": false,
+									"lineColor": "#16A34A",
+									"fillColor": "#DCFCE7",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQmy/XiwGgIw=",
+									"_parent": {
+										"$ref": "V_CMP_AUTH_SVC"
+									},
+									"model": {
+										"$ref": "M_CMP_AUTH_SVC"
+									},
+									"visible": false,
+									"lineColor": "#16A34A",
+									"fillColor": "#DCFCE7",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_CMP_AUTH_SVC",
+									"_parent": {
+										"$ref": "V_CMP_AUTH_SVC"
+									},
+									"model": {
+										"$ref": "M_CMP_AUTH_SVC"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/XiwIoII=",
+											"_parent": {
+												"$ref": "NM_CMP_AUTH_SVC"
+											},
+											"visible": false,
+											"lineColor": "#16A34A",
+											"fillColor": "#DCFCE7",
+											"fontColor": "#14532D",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/XiwKAYA=",
+											"_parent": {
+												"$ref": "NM_CMP_AUTH_SVC"
+											},
+											"visible": false,
+											"lineColor": "#16A34A",
+											"fillColor": "#DCFCE7",
+											"fontColor": "#14532D",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 140.88623046875,
+											"height": 13,
+											"text": "(from ComponentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/XiwLJGQ=",
+											"_parent": {
+												"$ref": "NM_CMP_AUTH_SVC"
+											},
+											"visible": false,
+											"lineColor": "#16A34A",
+											"fillColor": "#DCFCE7",
+											"fontColor": "#14532D",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_CMP_AUTH_SVC",
+											"_parent": {
+												"$ref": "NM_CMP_AUTH_SVC"
+											},
+											"lineColor": "#16A34A",
+											"fillColor": "#DCFCE7",
+											"fontColor": "#14532D",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 95,
+											"top": 422,
+											"width": 351,
+											"height": 13,
+											"text": "«component»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_CMP_AUTH_SVC",
+											"_parent": {
+												"$ref": "NM_CMP_AUTH_SVC"
+											},
+											"lineColor": "#16A34A",
+											"fillColor": "#DCFCE7",
+											"fontColor": "#14532D",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 95,
+											"top": 437,
+											"width": 351,
+											"height": 13,
+											"text": "Authentication & Session Service"
+										}
+									],
+									"lineColor": "#16A34A",
+									"fillColor": "#DCFCE7",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 90,
+									"top": 415,
+									"width": 361,
+									"height": 40,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGhQmy/XiwIoII="
+									},
+									"nameLabel": {
+										"$ref": "LBL_CMP_AUTH_SVC"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQmy/XiwKAYA="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQmy/XiwLJGQ="
+									}
+								}
+							],
+							"lineColor": "#16A34A",
+							"fillColor": "#DCFCE7",
+							"fontColor": "#14532D",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 70,
+							"top": 415,
+							"width": 380,
+							"height": 115,
+							"nameCompartment": {
+								"$ref": "NM_CMP_AUTH_SVC"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQmy/XiwDXuU="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQmy/XiwE+10="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQmy/XiwFmrU="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQmy/XiwGgIw="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_DESC_CMP_AUTH_SVC",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"fontColor": "#1F2937",
+							"font": "Arial;9;0",
+							"parentStyle": false,
+							"left": 82,
+							"top": 461,
+							"width": 356,
+							"height": 65,
+							"text": "Classes: AuthenticationService, SessionManager,\nPasswordUtil (SHA-256 Hashing with Salt)\nRole: Credential verification, session state, security"
+						},
+						{
+							"_type": "UMLComponentView",
+							"_id": "V_CMP_CROP_SVC",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "M_CMP_CROP_SVC"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQmy/XywVkvI=",
+									"_parent": {
+										"$ref": "V_CMP_CROP_SVC"
+									},
+									"model": {
+										"$ref": "M_CMP_CROP_SVC"
+									},
+									"lineColor": "#16A34A",
+									"fillColor": "#DCFCE7",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 510,
+									"top": 455,
+									"width": 361,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQmy/XywWFME=",
+									"_parent": {
+										"$ref": "V_CMP_CROP_SVC"
+									},
+									"model": {
+										"$ref": "M_CMP_CROP_SVC"
+									},
+									"lineColor": "#16A34A",
+									"fillColor": "#DCFCE7",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 510,
+									"top": 465,
+									"width": 361,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQmy/XywXFXI=",
+									"_parent": {
+										"$ref": "V_CMP_CROP_SVC"
+									},
+									"model": {
+										"$ref": "M_CMP_CROP_SVC"
+									},
+									"visible": false,
+									"lineColor": "#16A34A",
+									"fillColor": "#DCFCE7",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQmy/XywYs78=",
+									"_parent": {
+										"$ref": "V_CMP_CROP_SVC"
+									},
+									"model": {
+										"$ref": "M_CMP_CROP_SVC"
+									},
+									"visible": false,
+									"lineColor": "#16A34A",
+									"fillColor": "#DCFCE7",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_CMP_CROP_SVC",
+									"_parent": {
+										"$ref": "V_CMP_CROP_SVC"
+									},
+									"model": {
+										"$ref": "M_CMP_CROP_SVC"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/Xywatsk=",
+											"_parent": {
+												"$ref": "NM_CMP_CROP_SVC"
+											},
+											"visible": false,
+											"lineColor": "#16A34A",
+											"fillColor": "#DCFCE7",
+											"fontColor": "#14532D",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/XywckhQ=",
+											"_parent": {
+												"$ref": "NM_CMP_CROP_SVC"
+											},
+											"visible": false,
+											"lineColor": "#16A34A",
+											"fillColor": "#DCFCE7",
+											"fontColor": "#14532D",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 140.88623046875,
+											"height": 13,
+											"text": "(from ComponentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/Xywdwmo=",
+											"_parent": {
+												"$ref": "NM_CMP_CROP_SVC"
+											},
+											"visible": false,
+											"lineColor": "#16A34A",
+											"fillColor": "#DCFCE7",
+											"fontColor": "#14532D",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_CMP_CROP_SVC",
+											"_parent": {
+												"$ref": "NM_CMP_CROP_SVC"
+											},
+											"lineColor": "#16A34A",
+											"fillColor": "#DCFCE7",
+											"fontColor": "#14532D",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 515,
+											"top": 422,
+											"width": 351,
+											"height": 13,
+											"text": "«component»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_CMP_CROP_SVC",
+											"_parent": {
+												"$ref": "NM_CMP_CROP_SVC"
+											},
+											"lineColor": "#16A34A",
+											"fillColor": "#DCFCE7",
+											"fontColor": "#14532D",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 515,
+											"top": 437,
+											"width": 351,
+											"height": 13,
+											"text": "Crop Inventory & Analytics Service"
+										}
+									],
+									"lineColor": "#16A34A",
+									"fillColor": "#DCFCE7",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 510,
+									"top": 415,
+									"width": 361,
+									"height": 40,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGhQmy/Xywatsk="
+									},
+									"nameLabel": {
+										"$ref": "LBL_CMP_CROP_SVC"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQmy/XywckhQ="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQmy/Xywdwmo="
+									}
+								}
+							],
+							"lineColor": "#16A34A",
+							"fillColor": "#DCFCE7",
+							"fontColor": "#14532D",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 490,
+							"top": 415,
+							"width": 380,
+							"height": 115,
+							"nameCompartment": {
+								"$ref": "NM_CMP_CROP_SVC"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQmy/XywVkvI="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQmy/XywWFME="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQmy/XywXFXI="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQmy/XywYs78="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_DESC_CMP_CROP_SVC",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"fontColor": "#1F2937",
+							"font": "Arial;9;0",
+							"parentStyle": false,
+							"left": 502,
+							"top": 461,
+							"width": 356,
+							"height": 65,
+							"text": "Classes: CropService, InventoryAnalytics,\nInsufficientStockException\nRole: Stock validation, availability, catalog filtering"
+						},
+						{
+							"_type": "UMLComponentView",
+							"_id": "V_CMP_ORDER_SVC",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "M_CMP_ORDER_SVC"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQmy/Xywnm+8=",
+									"_parent": {
+										"$ref": "V_CMP_ORDER_SVC"
+									},
+									"model": {
+										"$ref": "M_CMP_ORDER_SVC"
+									},
+									"lineColor": "#16A34A",
+									"fillColor": "#DCFCE7",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 930,
+									"top": 455,
+									"width": 361,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQmy/Xywo+mQ=",
+									"_parent": {
+										"$ref": "V_CMP_ORDER_SVC"
+									},
+									"model": {
+										"$ref": "M_CMP_ORDER_SVC"
+									},
+									"lineColor": "#16A34A",
+									"fillColor": "#DCFCE7",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 930,
+									"top": 465,
+									"width": 361,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQmy/XywpmgE=",
+									"_parent": {
+										"$ref": "V_CMP_ORDER_SVC"
+									},
+									"model": {
+										"$ref": "M_CMP_ORDER_SVC"
+									},
+									"visible": false,
+									"lineColor": "#16A34A",
+									"fillColor": "#DCFCE7",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQmy/Xywq6tk=",
+									"_parent": {
+										"$ref": "V_CMP_ORDER_SVC"
+									},
+									"model": {
+										"$ref": "M_CMP_ORDER_SVC"
+									},
+									"visible": false,
+									"lineColor": "#16A34A",
+									"fillColor": "#DCFCE7",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_CMP_ORDER_SVC",
+									"_parent": {
+										"$ref": "V_CMP_ORDER_SVC"
+									},
+									"model": {
+										"$ref": "M_CMP_ORDER_SVC"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/XywsYRI=",
+											"_parent": {
+												"$ref": "NM_CMP_ORDER_SVC"
+											},
+											"visible": false,
+											"lineColor": "#16A34A",
+											"fillColor": "#DCFCE7",
+											"fontColor": "#14532D",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/XywuAxU=",
+											"_parent": {
+												"$ref": "NM_CMP_ORDER_SVC"
+											},
+											"visible": false,
+											"lineColor": "#16A34A",
+											"fillColor": "#DCFCE7",
+											"fontColor": "#14532D",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 140.88623046875,
+											"height": 13,
+											"text": "(from ComponentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/XywvKO4=",
+											"_parent": {
+												"$ref": "NM_CMP_ORDER_SVC"
+											},
+											"visible": false,
+											"lineColor": "#16A34A",
+											"fillColor": "#DCFCE7",
+											"fontColor": "#14532D",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_CMP_ORDER_SVC",
+											"_parent": {
+												"$ref": "NM_CMP_ORDER_SVC"
+											},
+											"lineColor": "#16A34A",
+											"fillColor": "#DCFCE7",
+											"fontColor": "#14532D",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 935,
+											"top": 422,
+											"width": 351,
+											"height": 13,
+											"text": "«component»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_CMP_ORDER_SVC",
+											"_parent": {
+												"$ref": "NM_CMP_ORDER_SVC"
+											},
+											"lineColor": "#16A34A",
+											"fillColor": "#DCFCE7",
+											"fontColor": "#14532D",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 935,
+											"top": 437,
+											"width": 351,
+											"height": 13,
+											"text": "Order Processing & Revenue Service"
+										}
+									],
+									"lineColor": "#16A34A",
+									"fillColor": "#DCFCE7",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 930,
+									"top": 415,
+									"width": 361,
+									"height": 40,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGhQmy/XywsYRI="
+									},
+									"nameLabel": {
+										"$ref": "LBL_CMP_ORDER_SVC"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQmy/XywuAxU="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQmy/XywvKO4="
+									}
+								}
+							],
+							"lineColor": "#16A34A",
+							"fillColor": "#DCFCE7",
+							"fontColor": "#14532D",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 910,
+							"top": 415,
+							"width": 380,
+							"height": 115,
+							"nameCompartment": {
+								"$ref": "NM_CMP_ORDER_SVC"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQmy/Xywnm+8="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQmy/Xywo+mQ="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQmy/XywpmgE="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQmy/Xywq6tk="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_DESC_CMP_ORDER_SVC",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"fontColor": "#1F2937",
+							"font": "Arial;9;0",
+							"parentStyle": false,
+							"left": 922,
+							"top": 461,
+							"width": 356,
+							"height": 65,
+							"text": "Classes: OrderService, RevenueService,\nValidationException\nRole: Order placement, status transitions, earnings calc"
+						},
+						{
+							"_type": "UMLComponentView",
+							"_id": "V_CMP_ADMIN_SVC",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "M_CMP_ADMIN_SVC"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQmy/Xyw55yo=",
+									"_parent": {
+										"$ref": "V_CMP_ADMIN_SVC"
+									},
+									"model": {
+										"$ref": "M_CMP_ADMIN_SVC"
+									},
+									"lineColor": "#16A34A",
+									"fillColor": "#DCFCE7",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1350,
+									"top": 455,
+									"width": 351,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQmy/Xyw6Mlk=",
+									"_parent": {
+										"$ref": "V_CMP_ADMIN_SVC"
+									},
+									"model": {
+										"$ref": "M_CMP_ADMIN_SVC"
+									},
+									"lineColor": "#16A34A",
+									"fillColor": "#DCFCE7",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1350,
+									"top": 465,
+									"width": 351,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQmy/Xyw71AA=",
+									"_parent": {
+										"$ref": "V_CMP_ADMIN_SVC"
+									},
+									"model": {
+										"$ref": "M_CMP_ADMIN_SVC"
+									},
+									"visible": false,
+									"lineColor": "#16A34A",
+									"fillColor": "#DCFCE7",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQmy/Xyw8FF8=",
+									"_parent": {
+										"$ref": "V_CMP_ADMIN_SVC"
+									},
+									"model": {
+										"$ref": "M_CMP_ADMIN_SVC"
+									},
+									"visible": false,
+									"lineColor": "#16A34A",
+									"fillColor": "#DCFCE7",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_CMP_ADMIN_SVC",
+									"_parent": {
+										"$ref": "V_CMP_ADMIN_SVC"
+									},
+									"model": {
+										"$ref": "M_CMP_ADMIN_SVC"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/Xyw+h+M=",
+											"_parent": {
+												"$ref": "NM_CMP_ADMIN_SVC"
+											},
+											"visible": false,
+											"lineColor": "#16A34A",
+											"fillColor": "#DCFCE7",
+											"fontColor": "#14532D",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/XyxAjJc=",
+											"_parent": {
+												"$ref": "NM_CMP_ADMIN_SVC"
+											},
+											"visible": false,
+											"lineColor": "#16A34A",
+											"fillColor": "#DCFCE7",
+											"fontColor": "#14532D",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 140.88623046875,
+											"height": 13,
+											"text": "(from ComponentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/XyxB8/Y=",
+											"_parent": {
+												"$ref": "NM_CMP_ADMIN_SVC"
+											},
+											"visible": false,
+											"lineColor": "#16A34A",
+											"fillColor": "#DCFCE7",
+											"fontColor": "#14532D",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_CMP_ADMIN_SVC",
+											"_parent": {
+												"$ref": "NM_CMP_ADMIN_SVC"
+											},
+											"lineColor": "#16A34A",
+											"fillColor": "#DCFCE7",
+											"fontColor": "#14532D",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 1355,
+											"top": 422,
+											"width": 341,
+											"height": 13,
+											"text": "«component»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_CMP_ADMIN_SVC",
+											"_parent": {
+												"$ref": "NM_CMP_ADMIN_SVC"
+											},
+											"lineColor": "#16A34A",
+											"fillColor": "#DCFCE7",
+											"fontColor": "#14532D",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 1355,
+											"top": 437,
+											"width": 341,
+											"height": 13,
+											"text": "Admin Operations & Export Service"
+										}
+									],
+									"lineColor": "#16A34A",
+									"fillColor": "#DCFCE7",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1350,
+									"top": 415,
+									"width": 351,
+									"height": 40,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGhQmy/Xyw+h+M="
+									},
+									"nameLabel": {
+										"$ref": "LBL_CMP_ADMIN_SVC"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQmy/XyxAjJc="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQmy/XyxB8/Y="
+									}
+								}
+							],
+							"lineColor": "#16A34A",
+							"fillColor": "#DCFCE7",
+							"fontColor": "#14532D",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 1330,
+							"top": 415,
+							"width": 370,
+							"height": 115,
+							"nameCompartment": {
+								"$ref": "NM_CMP_ADMIN_SVC"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQmy/Xyw55yo="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQmy/Xyw6Mlk="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQmy/Xyw71AA="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQmy/Xyw8FF8="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_DESC_CMP_ADMIN_SVC",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"fontColor": "#1F2937",
+							"font": "Arial;9;0",
+							"parentStyle": false,
+							"left": 1342,
+							"top": 461,
+							"width": 346,
+							"height": 65,
+							"text": "Classes: AdminService, DataExporter (CSV Export),\nAdminActions, DashboardActions\nRole: User management, CSV exports, reporting"
+						},
+						{
+							"_type": "UMLComponentView",
+							"_id": "V_CMP_USER_DAO",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "M_CMP_USER_DAO"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQmy/XyxLx6A=",
+									"_parent": {
+										"$ref": "V_CMP_USER_DAO"
+									},
+									"model": {
+										"$ref": "M_CMP_USER_DAO"
+									},
+									"lineColor": "#7C3AED",
+									"fillColor": "#EDE9FE",
+									"fontColor": "#4C1D95",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 90,
+									"top": 705,
+									"width": 341,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQmy/XyxMofs=",
+									"_parent": {
+										"$ref": "V_CMP_USER_DAO"
+									},
+									"model": {
+										"$ref": "M_CMP_USER_DAO"
+									},
+									"lineColor": "#7C3AED",
+									"fillColor": "#EDE9FE",
+									"fontColor": "#4C1D95",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 90,
+									"top": 715,
+									"width": 341,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQmy/XyxNF6k=",
+									"_parent": {
+										"$ref": "V_CMP_USER_DAO"
+									},
+									"model": {
+										"$ref": "M_CMP_USER_DAO"
+									},
+									"visible": false,
+									"lineColor": "#7C3AED",
+									"fillColor": "#EDE9FE",
+									"fontColor": "#4C1D95",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQmy/XyxO6aQ=",
+									"_parent": {
+										"$ref": "V_CMP_USER_DAO"
+									},
+									"model": {
+										"$ref": "M_CMP_USER_DAO"
+									},
+									"visible": false,
+									"lineColor": "#7C3AED",
+									"fillColor": "#EDE9FE",
+									"fontColor": "#4C1D95",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_CMP_USER_DAO",
+									"_parent": {
+										"$ref": "V_CMP_USER_DAO"
+									},
+									"model": {
+										"$ref": "M_CMP_USER_DAO"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/YCxQqUY=",
+											"_parent": {
+												"$ref": "NM_CMP_USER_DAO"
+											},
+											"visible": false,
+											"lineColor": "#7C3AED",
+											"fillColor": "#EDE9FE",
+											"fontColor": "#4C1D95",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/YCxS9rE=",
+											"_parent": {
+												"$ref": "NM_CMP_USER_DAO"
+											},
+											"visible": false,
+											"lineColor": "#7C3AED",
+											"fillColor": "#EDE9FE",
+											"fontColor": "#4C1D95",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 140.88623046875,
+											"height": 13,
+											"text": "(from ComponentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/YCxT21Y=",
+											"_parent": {
+												"$ref": "NM_CMP_USER_DAO"
+											},
+											"visible": false,
+											"lineColor": "#7C3AED",
+											"fillColor": "#EDE9FE",
+											"fontColor": "#4C1D95",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_CMP_USER_DAO",
+											"_parent": {
+												"$ref": "NM_CMP_USER_DAO"
+											},
+											"lineColor": "#7C3AED",
+											"fillColor": "#EDE9FE",
+											"fontColor": "#4C1D95",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 95,
+											"top": 672,
+											"width": 331,
+											"height": 13,
+											"text": "«component»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_CMP_USER_DAO",
+											"_parent": {
+												"$ref": "NM_CMP_USER_DAO"
+											},
+											"lineColor": "#7C3AED",
+											"fillColor": "#EDE9FE",
+											"fontColor": "#4C1D95",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 95,
+											"top": 687,
+											"width": 331,
+											"height": 13,
+											"text": "User & Admin DAO"
+										}
+									],
+									"lineColor": "#7C3AED",
+									"fillColor": "#EDE9FE",
+									"fontColor": "#4C1D95",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 90,
+									"top": 665,
+									"width": 341,
+									"height": 40,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGhQmy/YCxQqUY="
+									},
+									"nameLabel": {
+										"$ref": "LBL_CMP_USER_DAO"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQmy/YCxS9rE="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQmy/YCxT21Y="
+									}
+								}
+							],
+							"lineColor": "#7C3AED",
+							"fillColor": "#EDE9FE",
+							"fontColor": "#4C1D95",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 70,
+							"top": 665,
+							"width": 360,
+							"height": 120,
+							"nameCompartment": {
+								"$ref": "NM_CMP_USER_DAO"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQmy/XyxLx6A="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQmy/XyxMofs="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQmy/XyxNF6k="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQmy/XyxO6aQ="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_DESC_CMP_USER_DAO",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"fontColor": "#1F2937",
+							"font": "Arial;9;0",
+							"parentStyle": false,
+							"left": 82,
+							"top": 711,
+							"width": 336,
+							"height": 70,
+							"text": "Classes: UserDAO, AdminDAO\nRole: Users table CRUD, password persistence"
+						},
+						{
+							"_type": "UMLComponentView",
+							"_id": "V_CMP_CROP_DAO",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "M_CMP_CROP_DAO"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQmy/YCxdzLM=",
+									"_parent": {
+										"$ref": "V_CMP_CROP_DAO"
+									},
+									"model": {
+										"$ref": "M_CMP_CROP_DAO"
+									},
+									"lineColor": "#7C3AED",
+									"fillColor": "#EDE9FE",
+									"fontColor": "#4C1D95",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 490,
+									"top": 705,
+									"width": 341,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQmy/YCxeaNM=",
+									"_parent": {
+										"$ref": "V_CMP_CROP_DAO"
+									},
+									"model": {
+										"$ref": "M_CMP_CROP_DAO"
+									},
+									"lineColor": "#7C3AED",
+									"fillColor": "#EDE9FE",
+									"fontColor": "#4C1D95",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 490,
+									"top": 715,
+									"width": 341,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQmy/YCxfkBI=",
+									"_parent": {
+										"$ref": "V_CMP_CROP_DAO"
+									},
+									"model": {
+										"$ref": "M_CMP_CROP_DAO"
+									},
+									"visible": false,
+									"lineColor": "#7C3AED",
+									"fillColor": "#EDE9FE",
+									"fontColor": "#4C1D95",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQmy/YCxguLA=",
+									"_parent": {
+										"$ref": "V_CMP_CROP_DAO"
+									},
+									"model": {
+										"$ref": "M_CMP_CROP_DAO"
+									},
+									"visible": false,
+									"lineColor": "#7C3AED",
+									"fillColor": "#EDE9FE",
+									"fontColor": "#4C1D95",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_CMP_CROP_DAO",
+									"_parent": {
+										"$ref": "V_CMP_CROP_DAO"
+									},
+									"model": {
+										"$ref": "M_CMP_CROP_DAO"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/YCxiUrM=",
+											"_parent": {
+												"$ref": "NM_CMP_CROP_DAO"
+											},
+											"visible": false,
+											"lineColor": "#7C3AED",
+											"fillColor": "#EDE9FE",
+											"fontColor": "#4C1D95",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/YCxkDqA=",
+											"_parent": {
+												"$ref": "NM_CMP_CROP_DAO"
+											},
+											"visible": false,
+											"lineColor": "#7C3AED",
+											"fillColor": "#EDE9FE",
+											"fontColor": "#4C1D95",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 140.88623046875,
+											"height": 13,
+											"text": "(from ComponentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/YCxlUcE=",
+											"_parent": {
+												"$ref": "NM_CMP_CROP_DAO"
+											},
+											"visible": false,
+											"lineColor": "#7C3AED",
+											"fillColor": "#EDE9FE",
+											"fontColor": "#4C1D95",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_CMP_CROP_DAO",
+											"_parent": {
+												"$ref": "NM_CMP_CROP_DAO"
+											},
+											"lineColor": "#7C3AED",
+											"fillColor": "#EDE9FE",
+											"fontColor": "#4C1D95",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 495,
+											"top": 672,
+											"width": 331,
+											"height": 13,
+											"text": "«component»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_CMP_CROP_DAO",
+											"_parent": {
+												"$ref": "NM_CMP_CROP_DAO"
+											},
+											"lineColor": "#7C3AED",
+											"fillColor": "#EDE9FE",
+											"fontColor": "#4C1D95",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 495,
+											"top": 687,
+											"width": 331,
+											"height": 13,
+											"text": "Crop Inventory DAO"
+										}
+									],
+									"lineColor": "#7C3AED",
+									"fillColor": "#EDE9FE",
+									"fontColor": "#4C1D95",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 490,
+									"top": 665,
+									"width": 341,
+									"height": 40,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGhQmy/YCxiUrM="
+									},
+									"nameLabel": {
+										"$ref": "LBL_CMP_CROP_DAO"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQmy/YCxkDqA="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQmy/YCxlUcE="
+									}
+								}
+							],
+							"lineColor": "#7C3AED",
+							"fillColor": "#EDE9FE",
+							"fontColor": "#4C1D95",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 470,
+							"top": 665,
+							"width": 360,
+							"height": 120,
+							"nameCompartment": {
+								"$ref": "NM_CMP_CROP_DAO"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQmy/YCxdzLM="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQmy/YCxeaNM="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQmy/YCxfkBI="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQmy/YCxguLA="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_DESC_CMP_CROP_DAO",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"fontColor": "#1F2937",
+							"font": "Arial;9;0",
+							"parentStyle": false,
+							"left": 482,
+							"top": 711,
+							"width": 336,
+							"height": 70,
+							"text": "Classes: CropDAO\nRole: Crops table CRUD, stock atomic decrements"
+						},
+						{
+							"_type": "UMLComponentView",
+							"_id": "V_CMP_ORDER_DAO",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "M_CMP_ORDER_DAO"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQmy/YCxv/A4=",
+									"_parent": {
+										"$ref": "V_CMP_ORDER_DAO"
+									},
+									"model": {
+										"$ref": "M_CMP_ORDER_DAO"
+									},
+									"lineColor": "#7C3AED",
+									"fillColor": "#EDE9FE",
+									"fontColor": "#4C1D95",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 890,
+									"top": 705,
+									"width": 341,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQmy/YCxwcsY=",
+									"_parent": {
+										"$ref": "V_CMP_ORDER_DAO"
+									},
+									"model": {
+										"$ref": "M_CMP_ORDER_DAO"
+									},
+									"lineColor": "#7C3AED",
+									"fillColor": "#EDE9FE",
+									"fontColor": "#4C1D95",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 890,
+									"top": 715,
+									"width": 341,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQmy/YCxxIqc=",
+									"_parent": {
+										"$ref": "V_CMP_ORDER_DAO"
+									},
+									"model": {
+										"$ref": "M_CMP_ORDER_DAO"
+									},
+									"visible": false,
+									"lineColor": "#7C3AED",
+									"fillColor": "#EDE9FE",
+									"fontColor": "#4C1D95",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQmy/YCxyS3g=",
+									"_parent": {
+										"$ref": "V_CMP_ORDER_DAO"
+									},
+									"model": {
+										"$ref": "M_CMP_ORDER_DAO"
+									},
+									"visible": false,
+									"lineColor": "#7C3AED",
+									"fillColor": "#EDE9FE",
+									"fontColor": "#4C1D95",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_CMP_ORDER_DAO",
+									"_parent": {
+										"$ref": "V_CMP_ORDER_DAO"
+									},
+									"model": {
+										"$ref": "M_CMP_ORDER_DAO"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/YCx0icQ=",
+											"_parent": {
+												"$ref": "NM_CMP_ORDER_DAO"
+											},
+											"visible": false,
+											"lineColor": "#7C3AED",
+											"fillColor": "#EDE9FE",
+											"fontColor": "#4C1D95",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/YCx2Dkg=",
+											"_parent": {
+												"$ref": "NM_CMP_ORDER_DAO"
+											},
+											"visible": false,
+											"lineColor": "#7C3AED",
+											"fillColor": "#EDE9FE",
+											"fontColor": "#4C1D95",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 140.88623046875,
+											"height": 13,
+											"text": "(from ComponentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/YCx3Ahc=",
+											"_parent": {
+												"$ref": "NM_CMP_ORDER_DAO"
+											},
+											"visible": false,
+											"lineColor": "#7C3AED",
+											"fillColor": "#EDE9FE",
+											"fontColor": "#4C1D95",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_CMP_ORDER_DAO",
+											"_parent": {
+												"$ref": "NM_CMP_ORDER_DAO"
+											},
+											"lineColor": "#7C3AED",
+											"fillColor": "#EDE9FE",
+											"fontColor": "#4C1D95",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 895,
+											"top": 672,
+											"width": 331,
+											"height": 13,
+											"text": "«component»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_CMP_ORDER_DAO",
+											"_parent": {
+												"$ref": "NM_CMP_ORDER_DAO"
+											},
+											"lineColor": "#7C3AED",
+											"fillColor": "#EDE9FE",
+											"fontColor": "#4C1D95",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 895,
+											"top": 687,
+											"width": 331,
+											"height": 13,
+											"text": "Order & Transaction DAO"
+										}
+									],
+									"lineColor": "#7C3AED",
+									"fillColor": "#EDE9FE",
+									"fontColor": "#4C1D95",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 890,
+									"top": 665,
+									"width": 341,
+									"height": 40,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGhQmy/YCx0icQ="
+									},
+									"nameLabel": {
+										"$ref": "LBL_CMP_ORDER_DAO"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQmy/YCx2Dkg="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQmy/YCx3Ahc="
+									}
+								}
+							],
+							"lineColor": "#7C3AED",
+							"fillColor": "#EDE9FE",
+							"fontColor": "#4C1D95",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 870,
+							"top": 665,
+							"width": 360,
+							"height": 120,
+							"nameCompartment": {
+								"$ref": "NM_CMP_ORDER_DAO"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQmy/YCxv/A4="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQmy/YCxwcsY="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQmy/YCxxIqc="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQmy/YCxyS3g="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_DESC_CMP_ORDER_DAO",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"fontColor": "#1F2937",
+							"font": "Arial;9;0",
+							"parentStyle": false,
+							"left": 882,
+							"top": 711,
+							"width": 336,
+							"height": 70,
+							"text": "Classes: OrderDAO\nRole: Orders & Order_Items transactional CRUD"
+						},
+						{
+							"_type": "UMLComponentView",
+							"_id": "V_CMP_DOMAIN_MODEL",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "M_CMP_DOMAIN_MODEL"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQmy/YCyBPls=",
+									"_parent": {
+										"$ref": "V_CMP_DOMAIN_MODEL"
+									},
+									"model": {
+										"$ref": "M_CMP_DOMAIN_MODEL"
+									},
+									"lineColor": "#D97706",
+									"fillColor": "#FEF3C7",
+									"fontColor": "#78350F",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1290,
+									"top": 705,
+									"width": 411,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQmy/YCyCwUw=",
+									"_parent": {
+										"$ref": "V_CMP_DOMAIN_MODEL"
+									},
+									"model": {
+										"$ref": "M_CMP_DOMAIN_MODEL"
+									},
+									"lineColor": "#D97706",
+									"fillColor": "#FEF3C7",
+									"fontColor": "#78350F",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1290,
+									"top": 715,
+									"width": 411,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQmy/YCyDatQ=",
+									"_parent": {
+										"$ref": "V_CMP_DOMAIN_MODEL"
+									},
+									"model": {
+										"$ref": "M_CMP_DOMAIN_MODEL"
+									},
+									"visible": false,
+									"lineColor": "#D97706",
+									"fillColor": "#FEF3C7",
+									"fontColor": "#78350F",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQmy/YCyEOoQ=",
+									"_parent": {
+										"$ref": "V_CMP_DOMAIN_MODEL"
+									},
+									"model": {
+										"$ref": "M_CMP_DOMAIN_MODEL"
+									},
+									"visible": false,
+									"lineColor": "#D97706",
+									"fillColor": "#FEF3C7",
+									"fontColor": "#78350F",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_CMP_DOMAIN_MODEL",
+									"_parent": {
+										"$ref": "V_CMP_DOMAIN_MODEL"
+									},
+									"model": {
+										"$ref": "M_CMP_DOMAIN_MODEL"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/YCyGF+k=",
+											"_parent": {
+												"$ref": "NM_CMP_DOMAIN_MODEL"
+											},
+											"visible": false,
+											"lineColor": "#D97706",
+											"fillColor": "#FEF3C7",
+											"fontColor": "#78350F",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/YCyIvCI=",
+											"_parent": {
+												"$ref": "NM_CMP_DOMAIN_MODEL"
+											},
+											"visible": false,
+											"lineColor": "#D97706",
+											"fillColor": "#FEF3C7",
+											"fontColor": "#78350F",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 140.88623046875,
+											"height": 13,
+											"text": "(from ComponentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/YCyJULo=",
+											"_parent": {
+												"$ref": "NM_CMP_DOMAIN_MODEL"
+											},
+											"visible": false,
+											"lineColor": "#D97706",
+											"fillColor": "#FEF3C7",
+											"fontColor": "#78350F",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_CMP_DOMAIN_MODEL",
+											"_parent": {
+												"$ref": "NM_CMP_DOMAIN_MODEL"
+											},
+											"lineColor": "#D97706",
+											"fillColor": "#FEF3C7",
+											"fontColor": "#78350F",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 1295,
+											"top": 672,
+											"width": 401,
+											"height": 13,
+											"text": "«component»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_CMP_DOMAIN_MODEL",
+											"_parent": {
+												"$ref": "NM_CMP_DOMAIN_MODEL"
+											},
+											"lineColor": "#D97706",
+											"fillColor": "#FEF3C7",
+											"fontColor": "#78350F",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 1295,
+											"top": 687,
+											"width": 401,
+											"height": 13,
+											"text": "Domain Model Entities"
+										}
+									],
+									"lineColor": "#D97706",
+									"fillColor": "#FEF3C7",
+									"fontColor": "#78350F",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1290,
+									"top": 665,
+									"width": 411,
+									"height": 40,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGhQmy/YCyGF+k="
+									},
+									"nameLabel": {
+										"$ref": "LBL_CMP_DOMAIN_MODEL"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQmy/YCyIvCI="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQmy/YCyJULo="
+									}
+								}
+							],
+							"lineColor": "#D97706",
+							"fillColor": "#FEF3C7",
+							"fontColor": "#78350F",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 1270,
+							"top": 665,
+							"width": 430,
+							"height": 120,
+							"nameCompartment": {
+								"$ref": "NM_CMP_DOMAIN_MODEL"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQmy/YCyBPls="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQmy/YCyCwUw="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQmy/YCyDatQ="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQmy/YCyEOoQ="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_DESC_CMP_DOMAIN_MODEL",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"fontColor": "#1F2937",
+							"font": "Arial;9;0",
+							"parentStyle": false,
+							"left": 1282,
+							"top": 711,
+							"width": 406,
+							"height": 70,
+							"text": "Classes: User, Farmer, Customer, AdminUser,\nCrop, Order, OrderItem, CartItem, OrderStatus\nRole: Enterprise entity abstractions & data transfer"
+						},
+						{
+							"_type": "UMLComponentView",
+							"_id": "V_CMP_DBCONN",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "M_CMP_DBCONN"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQmy/YCyTx80=",
+									"_parent": {
+										"$ref": "V_CMP_DBCONN"
+									},
+									"model": {
+										"$ref": "M_CMP_DBCONN"
+									},
+									"lineColor": "#EA580C",
+									"fillColor": "#FFEDD5",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 90,
+									"top": 970,
+									"width": 501,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQmy/YCyUCtc=",
+									"_parent": {
+										"$ref": "V_CMP_DBCONN"
+									},
+									"model": {
+										"$ref": "M_CMP_DBCONN"
+									},
+									"lineColor": "#EA580C",
+									"fillColor": "#FFEDD5",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 90,
+									"top": 980,
+									"width": 501,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQmy/YCyVbZQ=",
+									"_parent": {
+										"$ref": "V_CMP_DBCONN"
+									},
+									"model": {
+										"$ref": "M_CMP_DBCONN"
+									},
+									"visible": false,
+									"lineColor": "#EA580C",
+									"fillColor": "#FFEDD5",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQmy/YCyWuLw=",
+									"_parent": {
+										"$ref": "V_CMP_DBCONN"
+									},
+									"model": {
+										"$ref": "M_CMP_DBCONN"
+									},
+									"visible": false,
+									"lineColor": "#EA580C",
+									"fillColor": "#FFEDD5",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_CMP_DBCONN",
+									"_parent": {
+										"$ref": "V_CMP_DBCONN"
+									},
+									"model": {
+										"$ref": "M_CMP_DBCONN"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/YCyYOUM=",
+											"_parent": {
+												"$ref": "NM_CMP_DBCONN"
+											},
+											"visible": false,
+											"lineColor": "#EA580C",
+											"fillColor": "#FFEDD5",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/YCyatU8=",
+											"_parent": {
+												"$ref": "NM_CMP_DBCONN"
+											},
+											"visible": false,
+											"lineColor": "#EA580C",
+											"fillColor": "#FFEDD5",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 140.88623046875,
+											"height": 13,
+											"text": "(from ComponentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/YCyb9f0=",
+											"_parent": {
+												"$ref": "NM_CMP_DBCONN"
+											},
+											"visible": false,
+											"lineColor": "#EA580C",
+											"fillColor": "#FFEDD5",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_CMP_DBCONN",
+											"_parent": {
+												"$ref": "NM_CMP_DBCONN"
+											},
+											"lineColor": "#EA580C",
+											"fillColor": "#FFEDD5",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 95,
+											"top": 937,
+											"width": 491,
+											"height": 13,
+											"text": "«component»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_CMP_DBCONN",
+											"_parent": {
+												"$ref": "NM_CMP_DBCONN"
+											},
+											"lineColor": "#EA580C",
+											"fillColor": "#FFEDD5",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 95,
+											"top": 952,
+											"width": 491,
+											"height": 13,
+											"text": "Database Connection Manager"
+										}
+									],
+									"lineColor": "#EA580C",
+									"fillColor": "#FFEDD5",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 90,
+									"top": 930,
+									"width": 501,
+									"height": 40,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGhQmy/YCyYOUM="
+									},
+									"nameLabel": {
+										"$ref": "LBL_CMP_DBCONN"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQmy/YCyatU8="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQmy/YCyb9f0="
+									}
+								}
+							],
+							"lineColor": "#EA580C",
+							"fillColor": "#FFEDD5",
+							"fontColor": "#7C2D12",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 70,
+							"top": 930,
+							"width": 520,
+							"height": 120,
+							"nameCompartment": {
+								"$ref": "NM_CMP_DBCONN"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQmy/YCyTx80="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQmy/YCyUCtc="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQmy/YCyVbZQ="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQmy/YCyWuLw="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_DESC_CMP_DBCONN",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"fontColor": "#1F2937",
+							"font": "Arial;9;0",
+							"parentStyle": false,
+							"left": 82,
+							"top": 976,
+							"width": 496,
+							"height": 70,
+							"text": "Classes: DBConnection, config.properties\nRole: JDBC connection lifecycle, dynamic credential config,\nAutomated schema creation & seed data bootstrapper"
+						},
+						{
+							"_type": "UMLComponentView",
+							"_id": "V_CMP_JDBC_DRV",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "M_CMP_JDBC_DRV"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQmy/YCylS4U=",
+									"_parent": {
+										"$ref": "V_CMP_JDBC_DRV"
+									},
+									"model": {
+										"$ref": "M_CMP_JDBC_DRV"
+									},
+									"lineColor": "#C2410C",
+									"fillColor": "#FED7AA",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 670,
+									"top": 970,
+									"width": 461,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQmy/YCymnWU=",
+									"_parent": {
+										"$ref": "V_CMP_JDBC_DRV"
+									},
+									"model": {
+										"$ref": "M_CMP_JDBC_DRV"
+									},
+									"lineColor": "#C2410C",
+									"fillColor": "#FED7AA",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 670,
+									"top": 980,
+									"width": 461,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQmy/YCynCr4=",
+									"_parent": {
+										"$ref": "V_CMP_JDBC_DRV"
+									},
+									"model": {
+										"$ref": "M_CMP_JDBC_DRV"
+									},
+									"visible": false,
+									"lineColor": "#C2410C",
+									"fillColor": "#FED7AA",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQmy/YSyoP60=",
+									"_parent": {
+										"$ref": "V_CMP_JDBC_DRV"
+									},
+									"model": {
+										"$ref": "M_CMP_JDBC_DRV"
+									},
+									"visible": false,
+									"lineColor": "#C2410C",
+									"fillColor": "#FED7AA",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_CMP_JDBC_DRV",
+									"_parent": {
+										"$ref": "V_CMP_JDBC_DRV"
+									},
+									"model": {
+										"$ref": "M_CMP_JDBC_DRV"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/YSyq+Ss=",
+											"_parent": {
+												"$ref": "NM_CMP_JDBC_DRV"
+											},
+											"visible": false,
+											"lineColor": "#C2410C",
+											"fillColor": "#FED7AA",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/YSysxUQ=",
+											"_parent": {
+												"$ref": "NM_CMP_JDBC_DRV"
+											},
+											"visible": false,
+											"lineColor": "#C2410C",
+											"fillColor": "#FED7AA",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 140.88623046875,
+											"height": 13,
+											"text": "(from ComponentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/YSytlpY=",
+											"_parent": {
+												"$ref": "NM_CMP_JDBC_DRV"
+											},
+											"visible": false,
+											"lineColor": "#C2410C",
+											"fillColor": "#FED7AA",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_CMP_JDBC_DRV",
+											"_parent": {
+												"$ref": "NM_CMP_JDBC_DRV"
+											},
+											"lineColor": "#C2410C",
+											"fillColor": "#FED7AA",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 675,
+											"top": 937,
+											"width": 451,
+											"height": 13,
+											"text": "«component»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_CMP_JDBC_DRV",
+											"_parent": {
+												"$ref": "NM_CMP_JDBC_DRV"
+											},
+											"lineColor": "#C2410C",
+											"fillColor": "#FED7AA",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 675,
+											"top": 952,
+											"width": 451,
+											"height": 13,
+											"text": "MySQL Connector/J JDBC Driver"
+										}
+									],
+									"lineColor": "#C2410C",
+									"fillColor": "#FED7AA",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 670,
+									"top": 930,
+									"width": 461,
+									"height": 40,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGhQmy/YSyq+Ss="
+									},
+									"nameLabel": {
+										"$ref": "LBL_CMP_JDBC_DRV"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQmy/YSysxUQ="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQmy/YSytlpY="
+									}
+								}
+							],
+							"lineColor": "#C2410C",
+							"fillColor": "#FED7AA",
+							"fontColor": "#7C2D12",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 650,
+							"top": 930,
+							"width": 480,
+							"height": 120,
+							"nameCompartment": {
+								"$ref": "NM_CMP_JDBC_DRV"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQmy/YCylS4U="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQmy/YCymnWU="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQmy/YCynCr4="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQmy/YSyoP60="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_DESC_CMP_JDBC_DRV",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"fontColor": "#1F2937",
+							"font": "Arial;9;0",
+							"parentStyle": false,
+							"left": 662,
+							"top": 976,
+							"width": 456,
+							"height": 70,
+							"text": "Artifact: lib/mysql-connector-j-9.2.0.jar\nClass: com.mysql.cj.jdbc.Driver (Type 4 Direct Socket Driver)\nRole: Translates JDBC calls to MySQL binary protocol"
+						},
+						{
+							"_type": "UMLComponentView",
+							"_id": "V_CMP_MYSQL_DB",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "M_CMP_MYSQL_DB"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQmy/YSy3R30=",
+									"_parent": {
+										"$ref": "V_CMP_MYSQL_DB"
+									},
+									"model": {
+										"$ref": "M_CMP_MYSQL_DB"
+									},
+									"lineColor": "#EA580C",
+									"fillColor": "#FFEDD5",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1210,
+									"top": 970,
+									"width": 491,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQmy/YSy4TdU=",
+									"_parent": {
+										"$ref": "V_CMP_MYSQL_DB"
+									},
+									"model": {
+										"$ref": "M_CMP_MYSQL_DB"
+									},
+									"lineColor": "#EA580C",
+									"fillColor": "#FFEDD5",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1210,
+									"top": 980,
+									"width": 491,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQmy/YSy5dHg=",
+									"_parent": {
+										"$ref": "V_CMP_MYSQL_DB"
+									},
+									"model": {
+										"$ref": "M_CMP_MYSQL_DB"
+									},
+									"visible": false,
+									"lineColor": "#EA580C",
+									"fillColor": "#FFEDD5",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQmy/YSy6TxQ=",
+									"_parent": {
+										"$ref": "V_CMP_MYSQL_DB"
+									},
+									"model": {
+										"$ref": "M_CMP_MYSQL_DB"
+									},
+									"visible": false,
+									"lineColor": "#EA580C",
+									"fillColor": "#FFEDD5",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_CMP_MYSQL_DB",
+									"_parent": {
+										"$ref": "V_CMP_MYSQL_DB"
+									},
+									"model": {
+										"$ref": "M_CMP_MYSQL_DB"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/YSy88o0=",
+											"_parent": {
+												"$ref": "NM_CMP_MYSQL_DB"
+											},
+											"visible": false,
+											"lineColor": "#EA580C",
+											"fillColor": "#FFEDD5",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/YSy+6/k=",
+											"_parent": {
+												"$ref": "NM_CMP_MYSQL_DB"
+											},
+											"visible": false,
+											"lineColor": "#EA580C",
+											"fillColor": "#FFEDD5",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 140.88623046875,
+											"height": 13,
+											"text": "(from ComponentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQmy/YSy/tL4=",
+											"_parent": {
+												"$ref": "NM_CMP_MYSQL_DB"
+											},
+											"visible": false,
+											"lineColor": "#EA580C",
+											"fillColor": "#FFEDD5",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_CMP_MYSQL_DB",
+											"_parent": {
+												"$ref": "NM_CMP_MYSQL_DB"
+											},
+											"lineColor": "#EA580C",
+											"fillColor": "#FFEDD5",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 1215,
+											"top": 937,
+											"width": 481,
+											"height": 13,
+											"text": "«database»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_CMP_MYSQL_DB",
+											"_parent": {
+												"$ref": "NM_CMP_MYSQL_DB"
+											},
+											"lineColor": "#EA580C",
+											"fillColor": "#FFEDD5",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 1215,
+											"top": 952,
+											"width": 481,
+											"height": 13,
+											"text": "MySQL Relational Database"
+										}
+									],
+									"lineColor": "#EA580C",
+									"fillColor": "#FFEDD5",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1210,
+									"top": 930,
+									"width": 491,
+									"height": 40,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGhQmy/YSy88o0="
+									},
+									"nameLabel": {
+										"$ref": "LBL_CMP_MYSQL_DB"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQmy/YSy+6/k="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQmy/YSy/tL4="
+									}
+								}
+							],
+							"lineColor": "#EA580C",
+							"fillColor": "#FFEDD5",
+							"fontColor": "#7C2D12",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 1190,
+							"top": 930,
+							"width": 510,
+							"height": 120,
+							"nameCompartment": {
+								"$ref": "NM_CMP_MYSQL_DB"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQmy/YSy3R30="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQmy/YSy4TdU="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQmy/YSy5dHg="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQmy/YSy6TxQ="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_DESC_CMP_MYSQL_DB",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"fontColor": "#1F2937",
+							"font": "Arial;9;0",
+							"parentStyle": false,
+							"left": 1202,
+							"top": 976,
+							"width": 486,
+							"height": 70,
+							"text": "DBMS: MySQL Community Server 8.0+ (Port 3306)\nSchema: yieldgrid (localhost:3306/yieldgrid)\nTables: users, crops, orders, order_items"
+						},
+						{
+							"_type": "UMLDependencyView",
+							"_id": "V_DEP_000",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "DEP_M_000"
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/YSzFW3Q=",
+									"_parent": {
+										"$ref": "V_DEP_000"
+									},
+									"model": {
+										"$ref": "DEP_M_000"
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 289,
+									"top": 340,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "V_DEP_000"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/YSzGMoc=",
+									"_parent": {
+										"$ref": "V_DEP_000"
+									},
+									"model": {
+										"$ref": "DEP_M_000"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 245,
+									"top": 341,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "V_DEP_000"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "LBL_DEP_000",
+									"_parent": {
+										"$ref": "V_DEP_000"
+									},
+									"model": {
+										"$ref": "DEP_M_000"
+									},
+									"font": "Arial;9;1",
+									"parentStyle": false,
+									"left": 220,
+									"top": 410,
+									"width": 80,
+									"height": 9,
+									"alpha": 0,
+									"distance": 0,
+									"text": "authenticates"
+								}
+							],
+							"lineColor": "#475569",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "V_CMP_AUTH_SVC"
+							},
+							"tail": {
+								"$ref": "V_CMP_AUTH_UI"
+							},
+							"lineStyle": 1,
+							"points": "260:281;260:414",
+							"nameLabel": {
+								"$ref": "LBL_DEP_000"
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGhQmy/YSzFW3Q="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGhQmy/YSzGMoc="
+							}
+						},
+						{
+							"_type": "UMLDependencyView",
+							"_id": "V_DEP_001",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "DEP_M_001"
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/YSzK0To=",
+									"_parent": {
+										"$ref": "V_DEP_001"
+									},
+									"model": {
+										"$ref": "DEP_M_001"
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 709,
+									"top": 340,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "V_DEP_001"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/YSzLUog=",
+									"_parent": {
+										"$ref": "V_DEP_001"
+									},
+									"model": {
+										"$ref": "DEP_M_001"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 665,
+									"top": 341,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "V_DEP_001"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "LBL_DEP_001",
+									"_parent": {
+										"$ref": "V_DEP_001"
+									},
+									"model": {
+										"$ref": "DEP_M_001"
+									},
+									"font": "Arial;9;1",
+									"parentStyle": false,
+									"left": 640,
+									"top": 410,
+									"width": 80,
+									"height": 9,
+									"alpha": 0,
+									"distance": 0,
+									"text": "manages crops"
+								}
+							],
+							"lineColor": "#475569",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "V_CMP_CROP_SVC"
+							},
+							"tail": {
+								"$ref": "V_CMP_FARMER_UI"
+							},
+							"lineStyle": 1,
+							"points": "680:281;680:414",
+							"nameLabel": {
+								"$ref": "LBL_DEP_001"
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGhQmy/YSzK0To="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGhQmy/YSzLUog="
+							}
+						},
+						{
+							"_type": "UMLDependencyView",
+							"_id": "V_DEP_002",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "DEP_M_002"
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/YSzPKV8=",
+									"_parent": {
+										"$ref": "V_DEP_002"
+									},
+									"model": {
+										"$ref": "DEP_M_002"
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 1129,
+									"top": 340,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "V_DEP_002"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/YSzQiV8=",
+									"_parent": {
+										"$ref": "V_DEP_002"
+									},
+									"model": {
+										"$ref": "DEP_M_002"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 1085,
+									"top": 341,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "V_DEP_002"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "LBL_DEP_002",
+									"_parent": {
+										"$ref": "V_DEP_002"
+									},
+									"model": {
+										"$ref": "DEP_M_002"
+									},
+									"font": "Arial;9;1",
+									"parentStyle": false,
+									"left": 1060,
+									"top": 410,
+									"width": 80,
+									"height": 9,
+									"alpha": 0,
+									"distance": 0,
+									"text": "places orders"
+								}
+							],
+							"lineColor": "#475569",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "V_CMP_ORDER_SVC"
+							},
+							"tail": {
+								"$ref": "V_CMP_CUSTOMER_UI"
+							},
+							"lineStyle": 1,
+							"points": "1100:281;1100:414",
+							"nameLabel": {
+								"$ref": "LBL_DEP_002"
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGhQmy/YSzPKV8="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGhQmy/YSzQiV8="
+							}
+						},
+						{
+							"_type": "UMLDependencyView",
+							"_id": "V_DEP_003",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "DEP_M_003"
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/YSzUByI=",
+									"_parent": {
+										"$ref": "V_DEP_003"
+									},
+									"model": {
+										"$ref": "DEP_M_003"
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 1544,
+									"top": 340,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "V_DEP_003"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/YSzV0nE=",
+									"_parent": {
+										"$ref": "V_DEP_003"
+									},
+									"model": {
+										"$ref": "DEP_M_003"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 1500,
+									"top": 341,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "V_DEP_003"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "LBL_DEP_003",
+									"_parent": {
+										"$ref": "V_DEP_003"
+									},
+									"model": {
+										"$ref": "DEP_M_003"
+									},
+									"font": "Arial;9;1",
+									"parentStyle": false,
+									"left": 1475,
+									"top": 410,
+									"width": 80,
+									"height": 9,
+									"alpha": 0,
+									"distance": 0,
+									"text": "administers"
+								}
+							],
+							"lineColor": "#475569",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "V_CMP_ADMIN_SVC"
+							},
+							"tail": {
+								"$ref": "V_CMP_ADMIN_UI"
+							},
+							"lineStyle": 1,
+							"points": "1515:281;1515:414",
+							"nameLabel": {
+								"$ref": "LBL_DEP_003"
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGhQmy/YSzUByI="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGhQmy/YSzV0nE="
+							}
+						},
+						{
+							"_type": "UMLDependencyView",
+							"_id": "V_DEP_004",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "DEP_M_004"
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/YSzZ7yo=",
+									"_parent": {
+										"$ref": "V_DEP_004"
+									},
+									"model": {
+										"$ref": "DEP_M_004"
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 865,
+									"top": 314,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "V_DEP_004"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/YSza0MQ=",
+									"_parent": {
+										"$ref": "V_DEP_004"
+									},
+									"model": {
+										"$ref": "DEP_M_004"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 865,
+									"top": 359,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "V_DEP_004"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "LBL_DEP_004",
+									"_parent": {
+										"$ref": "V_DEP_004"
+									},
+									"model": {
+										"$ref": "DEP_M_004"
+									},
+									"font": "Arial;9;1",
+									"parentStyle": false,
+									"left": 989,
+									"top": 410,
+									"width": 80,
+									"height": 9,
+									"alpha": 0,
+									"distance": 0,
+									"text": "tracks fulfillment"
+								}
+							],
+							"lineColor": "#475569",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "V_CMP_ORDER_SVC"
+							},
+							"tail": {
+								"$ref": "V_CMP_FARMER_UI"
+							},
+							"lineStyle": 1,
+							"points": "726:281;780:350;950:350;1029:414",
+							"nameLabel": {
+								"$ref": "LBL_DEP_004"
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGhQmy/YSzZ7yo="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGhQmy/YSza0MQ="
+							}
+						},
+						{
+							"_type": "UMLDependencyView",
+							"_id": "V_DEP_005",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "DEP_M_005"
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/YSzeZuU=",
+									"_parent": {
+										"$ref": "V_DEP_005"
+									},
+									"model": {
+										"$ref": "DEP_M_005"
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 909,
+									"top": 399,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "V_DEP_005"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/YSzfsvw=",
+									"_parent": {
+										"$ref": "V_DEP_005"
+									},
+									"model": {
+										"$ref": "DEP_M_005"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 910,
+									"top": 354,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "V_DEP_005"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "LBL_DEP_005",
+									"_parent": {
+										"$ref": "V_DEP_005"
+									},
+									"model": {
+										"$ref": "DEP_M_005"
+									},
+									"font": "Arial;9;1",
+									"parentStyle": false,
+									"left": 718,
+									"top": 410,
+									"width": 80,
+									"height": 9,
+									"alpha": 0,
+									"distance": 0,
+									"text": "browses catalog"
+								}
+							],
+							"lineColor": "#475569",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "V_CMP_CROP_SVC"
+							},
+							"tail": {
+								"$ref": "V_CMP_CUSTOMER_UI"
+							},
+							"lineStyle": 1,
+							"points": "1065:281;1010:375;810:375;758:414",
+							"nameLabel": {
+								"$ref": "LBL_DEP_005"
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGhQmy/YSzeZuU="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGhQmy/YSzfsvw="
+							}
+						},
+						{
+							"_type": "UMLDependencyView",
+							"_id": "V_DEP_006",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "DEP_M_006"
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/YSzjC30=",
+									"_parent": {
+										"$ref": "V_DEP_006"
+									},
+									"model": {
+										"$ref": "DEP_M_006"
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 284,
+									"top": 592,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "V_DEP_006"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/YSzkxZI=",
+									"_parent": {
+										"$ref": "V_DEP_006"
+									},
+									"model": {
+										"$ref": "DEP_M_006"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 240,
+									"top": 590,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "V_DEP_006"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "LBL_DEP_006",
+									"_parent": {
+										"$ref": "V_DEP_006"
+									},
+									"model": {
+										"$ref": "DEP_M_006"
+									},
+									"font": "Arial;9;1",
+									"parentStyle": false,
+									"left": 212,
+									"top": 660,
+									"width": 80,
+									"height": 9,
+									"alpha": 0,
+									"distance": 0,
+									"text": "queries users"
+								}
+							],
+							"lineColor": "#475569",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "V_CMP_USER_DAO"
+							},
+							"tail": {
+								"$ref": "V_CMP_AUTH_SVC"
+							},
+							"lineStyle": 1,
+							"points": "258:531;252:664",
+							"nameLabel": {
+								"$ref": "LBL_DEP_006"
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGhQmy/YSzjC30="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGhQmy/YSzkxZI="
+							}
+						},
+						{
+							"_type": "UMLDependencyView",
+							"_id": "V_DEP_007",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "DEP_M_007"
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/YSzo6jM=",
+									"_parent": {
+										"$ref": "V_DEP_007"
+									},
+									"model": {
+										"$ref": "DEP_M_007"
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 694,
+									"top": 594,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "V_DEP_007"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/YSzpeHE=",
+									"_parent": {
+										"$ref": "V_DEP_007"
+									},
+									"model": {
+										"$ref": "DEP_M_007"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 650,
+									"top": 589,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "V_DEP_007"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "LBL_DEP_007",
+									"_parent": {
+										"$ref": "V_DEP_007"
+									},
+									"model": {
+										"$ref": "DEP_M_007"
+									},
+									"font": "Arial;9;1",
+									"parentStyle": false,
+									"left": 617,
+									"top": 660,
+									"width": 80,
+									"height": 9,
+									"alpha": 0,
+									"distance": 0,
+									"text": "persists stock"
+								}
+							],
+							"lineColor": "#475569",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "V_CMP_CROP_DAO"
+							},
+							"tail": {
+								"$ref": "V_CMP_CROP_SVC"
+							},
+							"lineStyle": 1,
+							"points": "673:531;657:664",
+							"nameLabel": {
+								"$ref": "LBL_DEP_007"
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGhQmy/YSzo6jM="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGhQmy/YSzpeHE="
+							}
+						},
+						{
+							"_type": "UMLDependencyView",
+							"_id": "V_DEP_008",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "DEP_M_008"
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/YiztXZQ=",
+									"_parent": {
+										"$ref": "V_DEP_008"
+									},
+									"model": {
+										"$ref": "DEP_M_008"
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 1104,
+									"top": 596,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "V_DEP_008"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/Yizu0Ds=",
+									"_parent": {
+										"$ref": "V_DEP_008"
+									},
+									"model": {
+										"$ref": "DEP_M_008"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 1060,
+									"top": 588,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "V_DEP_008"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "LBL_DEP_008",
+									"_parent": {
+										"$ref": "V_DEP_008"
+									},
+									"model": {
+										"$ref": "DEP_M_008"
+									},
+									"font": "Arial;9;1",
+									"parentStyle": false,
+									"left": 1022,
+									"top": 660,
+									"width": 80,
+									"height": 9,
+									"alpha": 0,
+									"distance": 0,
+									"text": "persists orders"
+								}
+							],
+							"lineColor": "#475569",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "V_CMP_ORDER_DAO"
+							},
+							"tail": {
+								"$ref": "V_CMP_ORDER_SVC"
+							},
+							"lineStyle": 1,
+							"points": "1088:531;1062:664",
+							"nameLabel": {
+								"$ref": "LBL_DEP_008"
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGhQmy/YiztXZQ="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGhQmy/Yizu0Ds="
+							}
+						},
+						{
+							"_type": "UMLDependencyView",
+							"_id": "V_DEP_009",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "DEP_M_009"
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/YizycW8=",
+									"_parent": {
+										"$ref": "V_DEP_009"
+									},
+									"model": {
+										"$ref": "DEP_M_009"
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 1294,
+									"top": 614,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "V_DEP_009"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/YizzCtM=",
+									"_parent": {
+										"$ref": "V_DEP_009"
+									},
+									"model": {
+										"$ref": "DEP_M_009"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 1295,
+									"top": 569,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "V_DEP_009"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "LBL_DEP_009",
+									"_parent": {
+										"$ref": "V_DEP_009"
+									},
+									"model": {
+										"$ref": "DEP_M_009"
+									},
+									"font": "Arial;9;1",
+									"parentStyle": false,
+									"left": 1060,
+									"top": 660,
+									"width": 80,
+									"height": 9,
+									"alpha": 0,
+									"distance": 0,
+									"text": "exports data"
+								}
+							],
+							"lineColor": "#475569",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "V_CMP_ORDER_DAO"
+							},
+							"tail": {
+								"$ref": "V_CMP_ADMIN_SVC"
+							},
+							"lineStyle": 1,
+							"points": "1473:531;1430:590;1160:590;1100:664",
+							"nameLabel": {
+								"$ref": "LBL_DEP_009"
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGhQmy/YizycW8="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGhQmy/YizzCtM="
+							}
+						},
+						{
+							"_type": "UMLDependencyView",
+							"_id": "V_DEP_010",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "DEP_M_010"
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/Yiz3AWQ=",
+									"_parent": {
+										"$ref": "V_DEP_010"
+									},
+									"model": {
+										"$ref": "DEP_M_010"
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 864,
+									"top": 594,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "V_DEP_010"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/Yiz4Gjo=",
+									"_parent": {
+										"$ref": "V_DEP_010"
+									},
+									"model": {
+										"$ref": "DEP_M_010"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 865,
+									"top": 549,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "V_DEP_010"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "LBL_DEP_010",
+									"_parent": {
+										"$ref": "V_DEP_010"
+									},
+									"model": {
+										"$ref": "DEP_M_010"
+									},
+									"font": "Arial;9;1",
+									"parentStyle": false,
+									"left": 253,
+									"top": 660,
+									"width": 81.03076171875,
+									"height": 9,
+									"alpha": 0,
+									"distance": 0,
+									"text": "manages accounts"
+								}
+							],
+							"lineColor": "#475569",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "V_CMP_USER_DAO"
+							},
+							"tail": {
+								"$ref": "V_CMP_ADMIN_SVC"
+							},
+							"lineStyle": 1,
+							"points": "1428:531;1370:570;360:570;293:664",
+							"nameLabel": {
+								"$ref": "LBL_DEP_010"
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGhQmy/Yiz3AWQ="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGhQmy/Yiz4Gjo="
+							}
+						},
+						{
+							"_type": "UMLDependencyView",
+							"_id": "V_DEP_011",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "DEP_M_011"
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/Yiz8m0w=",
+									"_parent": {
+										"$ref": "V_DEP_011"
+									},
+									"model": {
+										"$ref": "DEP_M_011"
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 850,
+									"top": 689,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "V_DEP_011"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/Yiz9Vkg=",
+									"_parent": {
+										"$ref": "V_DEP_011"
+									},
+									"model": {
+										"$ref": "DEP_M_011"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 850,
+									"top": 734,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "V_DEP_011"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "LBL_DEP_011",
+									"_parent": {
+										"$ref": "V_DEP_011"
+									},
+									"model": {
+										"$ref": "DEP_M_011"
+									},
+									"font": "Arial;9;1",
+									"parentStyle": false,
+									"left": 1229,
+									"top": 721,
+									"width": 80,
+									"height": 9,
+									"alpha": 0,
+									"distance": 0,
+									"text": "hydrates"
+								}
+							],
+							"lineColor": "#475569",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "V_CMP_DOMAIN_MODEL"
+							},
+							"tail": {
+								"$ref": "V_CMP_USER_DAO"
+							},
+							"lineStyle": 1,
+							"points": "431:725;1269:725",
+							"nameLabel": {
+								"$ref": "LBL_DEP_011"
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGhQmy/Yiz8m0w="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGhQmy/Yiz9Vkg="
+							}
+						},
+						{
+							"_type": "UMLDependencyView",
+							"_id": "V_DEP_012",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "DEP_M_012"
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/Yi0BBWk=",
+									"_parent": {
+										"$ref": "V_DEP_012"
+									},
+									"model": {
+										"$ref": "DEP_M_012"
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 1050,
+									"top": 689,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "V_DEP_012"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/Yi0C94I=",
+									"_parent": {
+										"$ref": "V_DEP_012"
+									},
+									"model": {
+										"$ref": "DEP_M_012"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 1050,
+									"top": 734,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "V_DEP_012"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "LBL_DEP_012",
+									"_parent": {
+										"$ref": "V_DEP_012"
+									},
+									"model": {
+										"$ref": "DEP_M_012"
+									},
+									"font": "Arial;9;1",
+									"parentStyle": false,
+									"left": 1229,
+									"top": 721,
+									"width": 80,
+									"height": 9,
+									"alpha": 0,
+									"distance": 0,
+									"text": "hydrates"
+								}
+							],
+							"lineColor": "#475569",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "V_CMP_DOMAIN_MODEL"
+							},
+							"tail": {
+								"$ref": "V_CMP_CROP_DAO"
+							},
+							"lineStyle": 1,
+							"points": "831:725;1269:725",
+							"nameLabel": {
+								"$ref": "LBL_DEP_012"
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGhQmy/Yi0BBWk="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGhQmy/Yi0C94I="
+							}
+						},
+						{
+							"_type": "UMLDependencyView",
+							"_id": "V_DEP_013",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "DEP_M_013"
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/Yi0G3tE=",
+									"_parent": {
+										"$ref": "V_DEP_013"
+									},
+									"model": {
+										"$ref": "DEP_M_013"
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 1250,
+									"top": 689,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "V_DEP_013"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/Yi0HWZk=",
+									"_parent": {
+										"$ref": "V_DEP_013"
+									},
+									"model": {
+										"$ref": "DEP_M_013"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 1250,
+									"top": 734,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "V_DEP_013"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "LBL_DEP_013",
+									"_parent": {
+										"$ref": "V_DEP_013"
+									},
+									"model": {
+										"$ref": "DEP_M_013"
+									},
+									"font": "Arial;9;1",
+									"parentStyle": false,
+									"left": 1229,
+									"top": 721,
+									"width": 80,
+									"height": 9,
+									"alpha": 0,
+									"distance": 0,
+									"text": "hydrates"
+								}
+							],
+							"lineColor": "#475569",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "V_CMP_DOMAIN_MODEL"
+							},
+							"tail": {
+								"$ref": "V_CMP_ORDER_DAO"
+							},
+							"lineStyle": 1,
+							"points": "1231:725;1269:725",
+							"nameLabel": {
+								"$ref": "LBL_DEP_013"
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGhQmy/Yi0G3tE="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGhQmy/Yi0HWZk="
+							}
+						},
+						{
+							"_type": "UMLDependencyView",
+							"_id": "V_DEP_014",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "DEP_M_014"
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/Yi0LSkk=",
+									"_parent": {
+										"$ref": "V_DEP_014"
+									},
+									"model": {
+										"$ref": "DEP_M_014"
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 318,
+									"top": 842,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "V_DEP_014"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/Yi0MqTk=",
+									"_parent": {
+										"$ref": "V_DEP_014"
+									},
+									"model": {
+										"$ref": "DEP_M_014"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 275,
+									"top": 855,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "V_DEP_014"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "LBL_DEP_014",
+									"_parent": {
+										"$ref": "V_DEP_014"
+									},
+									"model": {
+										"$ref": "DEP_M_014"
+									},
+									"font": "Arial;9;1",
+									"parentStyle": false,
+									"left": 272,
+									"top": 925,
+									"width": 80,
+									"height": 9,
+									"alpha": 0,
+									"distance": 0,
+									"text": "getConnection()"
+								}
+							],
+							"lineColor": "#475569",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "V_CMP_DBCONN"
+							},
+							"tail": {
+								"$ref": "V_CMP_USER_DAO"
+							},
+							"lineStyle": 1,
+							"points": "268:786;312:929",
+							"nameLabel": {
+								"$ref": "LBL_DEP_014"
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGhQmy/Yi0LSkk="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGhQmy/Yi0MqTk="
+							}
+						},
+						{
+							"_type": "UMLDependencyView",
+							"_id": "V_DEP_015",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "DEP_M_015"
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/Yi0Qz84=",
+									"_parent": {
+										"$ref": "V_DEP_015"
+									},
+									"model": {
+										"$ref": "DEP_M_015"
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 489,
+									"top": 879,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "V_DEP_015"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/Yi0R5Is=",
+									"_parent": {
+										"$ref": "V_DEP_015"
+									},
+									"model": {
+										"$ref": "DEP_M_015"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 490,
+									"top": 834,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "V_DEP_015"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "LBL_DEP_015",
+									"_parent": {
+										"$ref": "V_DEP_015"
+									},
+									"model": {
+										"$ref": "DEP_M_015"
+									},
+									"font": "Arial;9;1",
+									"parentStyle": false,
+									"left": 290,
+									"top": 925,
+									"width": 80,
+									"height": 9,
+									"alpha": 0,
+									"distance": 0,
+									"text": "getConnection()"
+								}
+							],
+							"lineColor": "#475569",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "V_CMP_DBCONN"
+							},
+							"tail": {
+								"$ref": "V_CMP_CROP_DAO"
+							},
+							"lineStyle": 1,
+							"points": "650:786;650:855;330:855;330:929",
+							"nameLabel": {
+								"$ref": "LBL_DEP_015"
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGhQmy/Yi0Qz84="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGhQmy/Yi0R5Is="
+							}
+						},
+						{
+							"_type": "UMLDependencyView",
+							"_id": "V_DEP_016",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "DEP_M_016"
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/Yi0VHfk=",
+									"_parent": {
+										"$ref": "V_DEP_016"
+									},
+									"model": {
+										"$ref": "DEP_M_016"
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 759,
+									"top": 899,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "V_DEP_016"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/Yi0WpXc=",
+									"_parent": {
+										"$ref": "V_DEP_016"
+									},
+									"model": {
+										"$ref": "DEP_M_016"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 760,
+									"top": 854,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "V_DEP_016"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "LBL_DEP_016",
+									"_parent": {
+										"$ref": "V_DEP_016"
+									},
+									"model": {
+										"$ref": "DEP_M_016"
+									},
+									"font": "Arial;9;1",
+									"parentStyle": false,
+									"left": 364,
+									"top": 925,
+									"width": 80,
+									"height": 9,
+									"alpha": 0,
+									"distance": 0,
+									"text": "getConnection()"
+								}
+							],
+							"lineColor": "#475569",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "V_CMP_DBCONN"
+							},
+							"tail": {
+								"$ref": "V_CMP_ORDER_DAO"
+							},
+							"lineStyle": 1,
+							"points": "1050:786;1050:875;470:875;404:929",
+							"nameLabel": {
+								"$ref": "LBL_DEP_016"
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGhQmy/Yi0VHfk="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGhQmy/Yi0WpXc="
+							}
+						},
+						{
+							"_type": "UMLDependencyView",
+							"_id": "V_DEP_017",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "DEP_M_017"
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/Yi0aEbE=",
+									"_parent": {
+										"$ref": "V_DEP_017"
+									},
+									"model": {
+										"$ref": "DEP_M_017"
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 620,
+									"top": 954,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "V_DEP_017"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/Yi0bK6U=",
+									"_parent": {
+										"$ref": "V_DEP_017"
+									},
+									"model": {
+										"$ref": "DEP_M_017"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 620,
+									"top": 999,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "V_DEP_017"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "LBL_DEP_017",
+									"_parent": {
+										"$ref": "V_DEP_017"
+									},
+									"model": {
+										"$ref": "DEP_M_017"
+									},
+									"font": "Arial;9;1",
+									"parentStyle": false,
+									"left": 609,
+									"top": 986,
+									"width": 80,
+									"height": 9,
+									"alpha": 0,
+									"distance": 0,
+									"text": "loads driver"
+								}
+							],
+							"lineColor": "#475569",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "V_CMP_JDBC_DRV"
+							},
+							"tail": {
+								"$ref": "V_CMP_DBCONN"
+							},
+							"lineStyle": 1,
+							"points": "591:990;649:990",
+							"nameLabel": {
+								"$ref": "LBL_DEP_017"
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGhQmy/Yi0aEbE="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGhQmy/Yi0bK6U="
+							}
+						},
+						{
+							"_type": "UMLDependencyView",
+							"_id": "V_DEP_018",
+							"_parent": {
+								"$ref": "DIAG_YG_COMP"
+							},
+							"model": {
+								"$ref": "DEP_M_018"
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/Yi0f2xc=",
+									"_parent": {
+										"$ref": "V_DEP_018"
+									},
+									"model": {
+										"$ref": "DEP_M_018"
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 1160,
+									"top": 954,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "V_DEP_018"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQmy/Yi0gGyQ=",
+									"_parent": {
+										"$ref": "V_DEP_018"
+									},
+									"model": {
+										"$ref": "DEP_M_018"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 1160,
+									"top": 999,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "V_DEP_018"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "LBL_DEP_018",
+									"_parent": {
+										"$ref": "V_DEP_018"
+									},
+									"model": {
+										"$ref": "DEP_M_018"
+									},
+									"font": "Arial;9;1",
+									"parentStyle": false,
+									"left": 1149,
+									"top": 986,
+									"width": 80,
+									"height": 9,
+									"alpha": 0,
+									"distance": 0,
+									"text": "TCP/IP : 3306"
+								}
+							],
+							"lineColor": "#475569",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "V_CMP_MYSQL_DB"
+							},
+							"tail": {
+								"$ref": "V_CMP_JDBC_DRV"
+							},
+							"lineStyle": 1,
+							"points": "1131:990;1189:990",
+							"nameLabel": {
+								"$ref": "LBL_DEP_018"
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGhQmy/Yi0f2xc="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGhQmy/Yi0gGyQ="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLComponent",
+					"_id": "M_CMP_AUTH_UI",
+					"_parent": {
+						"$ref": "MOD_YG_COMP"
+					},
+					"name": "Authentication & Access UI",
+					"ownedElements": [
+						{
+							"_type": "UMLDependency",
+							"_id": "DEP_M_000",
+							"_parent": {
+								"$ref": "M_CMP_AUTH_UI"
+							},
+							"name": "authenticates",
+							"source": {
+								"$ref": "M_CMP_AUTH_UI"
+							},
+							"target": {
+								"$ref": "M_CMP_AUTH_SVC"
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLComponent",
+					"_id": "M_CMP_FARMER_UI",
+					"_parent": {
+						"$ref": "MOD_YG_COMP"
+					},
+					"name": "Farmer Operations UI",
+					"ownedElements": [
+						{
+							"_type": "UMLDependency",
+							"_id": "DEP_M_001",
+							"_parent": {
+								"$ref": "M_CMP_FARMER_UI"
+							},
+							"name": "manages crops",
+							"source": {
+								"$ref": "M_CMP_FARMER_UI"
+							},
+							"target": {
+								"$ref": "M_CMP_CROP_SVC"
+							}
+						},
+						{
+							"_type": "UMLDependency",
+							"_id": "DEP_M_004",
+							"_parent": {
+								"$ref": "M_CMP_FARMER_UI"
+							},
+							"name": "tracks fulfillment",
+							"source": {
+								"$ref": "M_CMP_FARMER_UI"
+							},
+							"target": {
+								"$ref": "M_CMP_ORDER_SVC"
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLComponent",
+					"_id": "M_CMP_CUSTOMER_UI",
+					"_parent": {
+						"$ref": "MOD_YG_COMP"
+					},
+					"name": "Customer Marketplace UI",
+					"ownedElements": [
+						{
+							"_type": "UMLDependency",
+							"_id": "DEP_M_002",
+							"_parent": {
+								"$ref": "M_CMP_CUSTOMER_UI"
+							},
+							"name": "places orders",
+							"source": {
+								"$ref": "M_CMP_CUSTOMER_UI"
+							},
+							"target": {
+								"$ref": "M_CMP_ORDER_SVC"
+							}
+						},
+						{
+							"_type": "UMLDependency",
+							"_id": "DEP_M_005",
+							"_parent": {
+								"$ref": "M_CMP_CUSTOMER_UI"
+							},
+							"name": "browses catalog",
+							"source": {
+								"$ref": "M_CMP_CUSTOMER_UI"
+							},
+							"target": {
+								"$ref": "M_CMP_CROP_SVC"
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLComponent",
+					"_id": "M_CMP_ADMIN_UI",
+					"_parent": {
+						"$ref": "MOD_YG_COMP"
+					},
+					"name": "System Administration UI",
+					"ownedElements": [
+						{
+							"_type": "UMLDependency",
+							"_id": "DEP_M_003",
+							"_parent": {
+								"$ref": "M_CMP_ADMIN_UI"
+							},
+							"name": "administers",
+							"source": {
+								"$ref": "M_CMP_ADMIN_UI"
+							},
+							"target": {
+								"$ref": "M_CMP_ADMIN_SVC"
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLComponent",
+					"_id": "M_CMP_AUTH_SVC",
+					"_parent": {
+						"$ref": "MOD_YG_COMP"
+					},
+					"name": "Authentication & Session Service",
+					"ownedElements": [
+						{
+							"_type": "UMLDependency",
+							"_id": "DEP_M_006",
+							"_parent": {
+								"$ref": "M_CMP_AUTH_SVC"
+							},
+							"name": "queries users",
+							"source": {
+								"$ref": "M_CMP_AUTH_SVC"
+							},
+							"target": {
+								"$ref": "M_CMP_USER_DAO"
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLComponent",
+					"_id": "M_CMP_CROP_SVC",
+					"_parent": {
+						"$ref": "MOD_YG_COMP"
+					},
+					"name": "Crop Inventory & Analytics Service",
+					"ownedElements": [
+						{
+							"_type": "UMLDependency",
+							"_id": "DEP_M_007",
+							"_parent": {
+								"$ref": "M_CMP_CROP_SVC"
+							},
+							"name": "persists stock",
+							"source": {
+								"$ref": "M_CMP_CROP_SVC"
+							},
+							"target": {
+								"$ref": "M_CMP_CROP_DAO"
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLComponent",
+					"_id": "M_CMP_ORDER_SVC",
+					"_parent": {
+						"$ref": "MOD_YG_COMP"
+					},
+					"name": "Order Processing & Revenue Service",
+					"ownedElements": [
+						{
+							"_type": "UMLDependency",
+							"_id": "DEP_M_008",
+							"_parent": {
+								"$ref": "M_CMP_ORDER_SVC"
+							},
+							"name": "persists orders",
+							"source": {
+								"$ref": "M_CMP_ORDER_SVC"
+							},
+							"target": {
+								"$ref": "M_CMP_ORDER_DAO"
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLComponent",
+					"_id": "M_CMP_ADMIN_SVC",
+					"_parent": {
+						"$ref": "MOD_YG_COMP"
+					},
+					"name": "Admin Operations & Export Service",
+					"ownedElements": [
+						{
+							"_type": "UMLDependency",
+							"_id": "DEP_M_009",
+							"_parent": {
+								"$ref": "M_CMP_ADMIN_SVC"
+							},
+							"name": "exports data",
+							"source": {
+								"$ref": "M_CMP_ADMIN_SVC"
+							},
+							"target": {
+								"$ref": "M_CMP_ORDER_DAO"
+							}
+						},
+						{
+							"_type": "UMLDependency",
+							"_id": "DEP_M_010",
+							"_parent": {
+								"$ref": "M_CMP_ADMIN_SVC"
+							},
+							"name": "manages accounts",
+							"source": {
+								"$ref": "M_CMP_ADMIN_SVC"
+							},
+							"target": {
+								"$ref": "M_CMP_USER_DAO"
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLComponent",
+					"_id": "M_CMP_USER_DAO",
+					"_parent": {
+						"$ref": "MOD_YG_COMP"
+					},
+					"name": "User & Admin DAO",
+					"ownedElements": [
+						{
+							"_type": "UMLDependency",
+							"_id": "DEP_M_011",
+							"_parent": {
+								"$ref": "M_CMP_USER_DAO"
+							},
+							"name": "hydrates",
+							"source": {
+								"$ref": "M_CMP_USER_DAO"
+							},
+							"target": {
+								"$ref": "M_CMP_DOMAIN_MODEL"
+							}
+						},
+						{
+							"_type": "UMLDependency",
+							"_id": "DEP_M_014",
+							"_parent": {
+								"$ref": "M_CMP_USER_DAO"
+							},
+							"name": "getConnection()",
+							"source": {
+								"$ref": "M_CMP_USER_DAO"
+							},
+							"target": {
+								"$ref": "M_CMP_DBCONN"
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLComponent",
+					"_id": "M_CMP_CROP_DAO",
+					"_parent": {
+						"$ref": "MOD_YG_COMP"
+					},
+					"name": "Crop Inventory DAO",
+					"ownedElements": [
+						{
+							"_type": "UMLDependency",
+							"_id": "DEP_M_012",
+							"_parent": {
+								"$ref": "M_CMP_CROP_DAO"
+							},
+							"name": "hydrates",
+							"source": {
+								"$ref": "M_CMP_CROP_DAO"
+							},
+							"target": {
+								"$ref": "M_CMP_DOMAIN_MODEL"
+							}
+						},
+						{
+							"_type": "UMLDependency",
+							"_id": "DEP_M_015",
+							"_parent": {
+								"$ref": "M_CMP_CROP_DAO"
+							},
+							"name": "getConnection()",
+							"source": {
+								"$ref": "M_CMP_CROP_DAO"
+							},
+							"target": {
+								"$ref": "M_CMP_DBCONN"
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLComponent",
+					"_id": "M_CMP_ORDER_DAO",
+					"_parent": {
+						"$ref": "MOD_YG_COMP"
+					},
+					"name": "Order & Transaction DAO",
+					"ownedElements": [
+						{
+							"_type": "UMLDependency",
+							"_id": "DEP_M_013",
+							"_parent": {
+								"$ref": "M_CMP_ORDER_DAO"
+							},
+							"name": "hydrates",
+							"source": {
+								"$ref": "M_CMP_ORDER_DAO"
+							},
+							"target": {
+								"$ref": "M_CMP_DOMAIN_MODEL"
+							}
+						},
+						{
+							"_type": "UMLDependency",
+							"_id": "DEP_M_016",
+							"_parent": {
+								"$ref": "M_CMP_ORDER_DAO"
+							},
+							"name": "getConnection()",
+							"source": {
+								"$ref": "M_CMP_ORDER_DAO"
+							},
+							"target": {
+								"$ref": "M_CMP_DBCONN"
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLComponent",
+					"_id": "M_CMP_DOMAIN_MODEL",
+					"_parent": {
+						"$ref": "MOD_YG_COMP"
+					},
+					"name": "Domain Model Entities"
+				},
+				{
+					"_type": "UMLComponent",
+					"_id": "M_CMP_DBCONN",
+					"_parent": {
+						"$ref": "MOD_YG_COMP"
+					},
+					"name": "Database Connection Manager",
+					"ownedElements": [
+						{
+							"_type": "UMLDependency",
+							"_id": "DEP_M_017",
+							"_parent": {
+								"$ref": "M_CMP_DBCONN"
+							},
+							"name": "loads driver",
+							"source": {
+								"$ref": "M_CMP_DBCONN"
+							},
+							"target": {
+								"$ref": "M_CMP_JDBC_DRV"
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLComponent",
+					"_id": "M_CMP_JDBC_DRV",
+					"_parent": {
+						"$ref": "MOD_YG_COMP"
+					},
+					"name": "MySQL Connector/J JDBC Driver",
+					"ownedElements": [
+						{
+							"_type": "UMLDependency",
+							"_id": "DEP_M_018",
+							"_parent": {
+								"$ref": "M_CMP_JDBC_DRV"
+							},
+							"name": "TCP/IP : 3306",
+							"source": {
+								"$ref": "M_CMP_JDBC_DRV"
+							},
+							"target": {
+								"$ref": "M_CMP_MYSQL_DB"
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLComponent",
+					"_id": "M_CMP_MYSQL_DB",
+					"_parent": {
+						"$ref": "MOD_YG_COMP"
+					},
+					"name": "MySQL Relational Database"
+				}
+			]
+		}
+	],
+	"documentVersion": 1
+}

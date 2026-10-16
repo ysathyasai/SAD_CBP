@@ -1,0 +1,3974 @@
+{
+	"_type": "Project",
+	"_id": "PROJ_YG_DEPLOY",
+	"name": "YieldGrid_Deployment_Diagram",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "MOD_YG_DEPLOY",
+			"_parent": {
+				"$ref": "PROJ_YG_DEPLOY"
+			},
+			"name": "DeploymentModel",
+			"ownedElements": [
+				{
+					"_type": "UMLDeploymentDiagram",
+					"_id": "DIAG_YG_DEPLOY",
+					"_parent": {
+						"$ref": "MOD_YG_DEPLOY"
+					},
+					"name": "08_Deployment_Diagram",
+					"ownedViews": [
+						{
+							"_type": "RectangleView",
+							"_id": "V_CANVAS_BG",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"lineColor": "#D1D5DB",
+							"fillColor": "#F3F4F6",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 20,
+							"top": 20,
+							"width": 1750,
+							"height": 1050
+						},
+						{
+							"_type": "RectangleView",
+							"_id": "V_BANNER_BG",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"lineColor": "#1E293B",
+							"fillColor": "#0F172A",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 40,
+							"top": 35,
+							"width": 1710,
+							"height": 65
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "V_BANNER_TITLE",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"fontColor": "#FFFFFF",
+							"font": "Arial;16;1",
+							"parentStyle": false,
+							"left": 60,
+							"top": 45,
+							"width": 1100,
+							"height": 28,
+							"text": "YIELDGRID — RUNTIME DEPLOYMENT DIAGRAM"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "V_BANNER_SUBTITLE",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"fontColor": "#94A3B8",
+							"font": "Arial;10;0",
+							"parentStyle": false,
+							"left": 60,
+							"top": 73,
+							"width": 1300,
+							"height": 22,
+							"text": "Course-Based Project (CBP) | Desktop Workstation Client, JRE Runtime, JDBC Driver & Relational MySQL Server"
+						},
+						{
+							"_type": "UMLNodeView",
+							"_id": "V_NODE_CLIENT",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"model": {
+								"$ref": "M_NODE_CLIENT"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQnjXOTmo/6w=",
+									"_parent": {
+										"$ref": "V_NODE_CLIENT"
+									},
+									"model": {
+										"$ref": "M_NODE_CLIENT"
+									},
+									"lineColor": "#2563EB",
+									"fillColor": "#EFF6FF",
+									"fontColor": "#1E3A8A",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 50,
+									"top": 160,
+									"width": 741,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQnjXOTmp9jM=",
+									"_parent": {
+										"$ref": "V_NODE_CLIENT"
+									},
+									"model": {
+										"$ref": "M_NODE_CLIENT"
+									},
+									"lineColor": "#2563EB",
+									"fillColor": "#EFF6FF",
+									"fontColor": "#1E3A8A",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 50,
+									"top": 170,
+									"width": 741,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQnjXOTmqNWk=",
+									"_parent": {
+										"$ref": "V_NODE_CLIENT"
+									},
+									"model": {
+										"$ref": "M_NODE_CLIENT"
+									},
+									"visible": false,
+									"lineColor": "#2563EB",
+									"fillColor": "#EFF6FF",
+									"fontColor": "#1E3A8A",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQnjXOTmrPcs=",
+									"_parent": {
+										"$ref": "V_NODE_CLIENT"
+									},
+									"model": {
+										"$ref": "M_NODE_CLIENT"
+									},
+									"visible": false,
+									"lineColor": "#2563EB",
+									"fillColor": "#EFF6FF",
+									"fontColor": "#1E3A8A",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_NODE_CLIENT",
+									"_parent": {
+										"$ref": "V_NODE_CLIENT"
+									},
+									"model": {
+										"$ref": "M_NODE_CLIENT"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXOTmvNsI=",
+											"_parent": {
+												"$ref": "NM_NODE_CLIENT"
+											},
+											"visible": false,
+											"lineColor": "#2563EB",
+											"fillColor": "#EFF6FF",
+											"fontColor": "#1E3A8A",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 143.04443359375,
+											"height": 13,
+											"text": "(from DeploymentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXOTmwWx4=",
+											"_parent": {
+												"$ref": "NM_NODE_CLIENT"
+											},
+											"visible": false,
+											"lineColor": "#2563EB",
+											"fillColor": "#EFF6FF",
+											"fontColor": "#1E3A8A",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_NODE_CLIENT",
+											"_parent": {
+												"$ref": "NM_NODE_CLIENT"
+											},
+											"visible": false,
+											"lineColor": "#2563EB",
+											"fillColor": "#EFF6FF",
+											"fontColor": "#1E3A8A",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 50,
+											"top": 133,
+											"width": 750,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_NODE_CLIENT",
+											"_parent": {
+												"$ref": "NM_NODE_CLIENT"
+											},
+											"lineColor": "#2563EB",
+											"fillColor": "#EFF6FF",
+											"fontColor": "#1E3A8A",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 55,
+											"top": 142,
+											"width": 731,
+											"height": 13,
+											"text": "Client Workstation PC"
+										}
+									],
+									"lineColor": "#2563EB",
+									"fillColor": "#EFF6FF",
+									"fontColor": "#1E3A8A",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 50,
+									"top": 135,
+									"width": 741,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "ST_NODE_CLIENT"
+									},
+									"nameLabel": {
+										"$ref": "LBL_NODE_CLIENT"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQnjXOTmvNsI="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQnjXOTmwWx4="
+									}
+								}
+							],
+							"lineColor": "#2563EB",
+							"fillColor": "#EFF6FF",
+							"fontColor": "#1E3A8A",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 50,
+							"top": 125,
+							"width": 750,
+							"height": 920,
+							"nameCompartment": {
+								"$ref": "NM_NODE_CLIENT"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQnjXOTmo/6w="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQnjXOTmp9jM="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQnjXOTmqNWk="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQnjXOTmrPcs="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_INFO_NODE_CLIENT",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"fontColor": "#1E3A8A",
+							"font": "Arial;9;2",
+							"parentStyle": false,
+							"left": 70,
+							"top": 171,
+							"width": 710,
+							"height": 21,
+							"text": "OS: Windows 10/11 (or Compatible Desktop OS) | Client-side Workstation Node"
+						},
+						{
+							"_type": "UMLNodeView",
+							"_id": "V_ENV_JVM",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"model": {
+								"$ref": "M_ENV_JVM"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQnjXOjm6a6M=",
+									"_parent": {
+										"$ref": "V_ENV_JVM"
+									},
+									"model": {
+										"$ref": "M_ENV_JVM"
+									},
+									"lineColor": "#16A34A",
+									"fillColor": "#DCFCE7",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 75,
+									"top": 240,
+									"width": 691,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQnjXOjm7ZMM=",
+									"_parent": {
+										"$ref": "V_ENV_JVM"
+									},
+									"model": {
+										"$ref": "M_ENV_JVM"
+									},
+									"lineColor": "#16A34A",
+									"fillColor": "#DCFCE7",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 75,
+									"top": 250,
+									"width": 691,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQnjXOjm8LBw=",
+									"_parent": {
+										"$ref": "V_ENV_JVM"
+									},
+									"model": {
+										"$ref": "M_ENV_JVM"
+									},
+									"visible": false,
+									"lineColor": "#16A34A",
+									"fillColor": "#DCFCE7",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQnjXOjm9m54=",
+									"_parent": {
+										"$ref": "V_ENV_JVM"
+									},
+									"model": {
+										"$ref": "M_ENV_JVM"
+									},
+									"visible": false,
+									"lineColor": "#16A34A",
+									"fillColor": "#DCFCE7",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_ENV_JVM",
+									"_parent": {
+										"$ref": "V_ENV_JVM"
+									},
+									"model": {
+										"$ref": "M_ENV_JVM"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXOjnBH8k=",
+											"_parent": {
+												"$ref": "NM_ENV_JVM"
+											},
+											"visible": false,
+											"lineColor": "#16A34A",
+											"fillColor": "#DCFCE7",
+											"fontColor": "#14532D",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 143.04443359375,
+											"height": 13,
+											"text": "(from DeploymentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXOjnC8HE=",
+											"_parent": {
+												"$ref": "NM_ENV_JVM"
+											},
+											"visible": false,
+											"lineColor": "#16A34A",
+											"fillColor": "#DCFCE7",
+											"fontColor": "#14532D",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_ENV_JVM",
+											"_parent": {
+												"$ref": "NM_ENV_JVM"
+											},
+											"visible": false,
+											"lineColor": "#16A34A",
+											"fillColor": "#DCFCE7",
+											"fontColor": "#14532D",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 75,
+											"top": 213,
+											"width": 700,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_ENV_JVM",
+											"_parent": {
+												"$ref": "NM_ENV_JVM"
+											},
+											"lineColor": "#16A34A",
+											"fillColor": "#DCFCE7",
+											"fontColor": "#14532D",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 80,
+											"top": 222,
+											"width": 681,
+											"height": 13,
+											"text": "Java Virtual Machine (JVM)"
+										}
+									],
+									"lineColor": "#16A34A",
+									"fillColor": "#DCFCE7",
+									"fontColor": "#14532D",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 75,
+									"top": 215,
+									"width": 691,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "ST_ENV_JVM"
+									},
+									"nameLabel": {
+										"$ref": "LBL_ENV_JVM"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQnjXOjnBH8k="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQnjXOjnC8HE="
+									}
+								}
+							],
+							"lineColor": "#16A34A",
+							"fillColor": "#DCFCE7",
+							"fontColor": "#14532D",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 75,
+							"top": 205,
+							"width": 700,
+							"height": 550,
+							"nameCompartment": {
+								"$ref": "NM_ENV_JVM"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQnjXOjm6a6M="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQnjXOjm7ZMM="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQnjXOjm8LBw="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQnjXOjm9m54="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_INFO_ENV_JVM",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"fontColor": "#14532D",
+							"font": "Arial;9;2",
+							"parentStyle": false,
+							"left": 95,
+							"top": 251,
+							"width": 660,
+							"height": 21,
+							"text": "Runtime: Oracle OpenJDK / JRE 17+ (Java SE Execution Environment)"
+						},
+						{
+							"_type": "UMLNodeView",
+							"_id": "V_ENV_FS",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"model": {
+								"$ref": "M_ENV_FS"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQnjXOjnMwwY=",
+									"_parent": {
+										"$ref": "V_ENV_FS"
+									},
+									"model": {
+										"$ref": "M_ENV_FS"
+									},
+									"lineColor": "#6B7280",
+									"fillColor": "#F3F4F6",
+									"fontColor": "#374151",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 75,
+									"top": 815,
+									"width": 691,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQnjXOjnNkDw=",
+									"_parent": {
+										"$ref": "V_ENV_FS"
+									},
+									"model": {
+										"$ref": "M_ENV_FS"
+									},
+									"lineColor": "#6B7280",
+									"fillColor": "#F3F4F6",
+									"fontColor": "#374151",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 75,
+									"top": 825,
+									"width": 691,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQnjXOjnOHMY=",
+									"_parent": {
+										"$ref": "V_ENV_FS"
+									},
+									"model": {
+										"$ref": "M_ENV_FS"
+									},
+									"visible": false,
+									"lineColor": "#6B7280",
+									"fillColor": "#F3F4F6",
+									"fontColor": "#374151",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQnjXOjnPJHw=",
+									"_parent": {
+										"$ref": "V_ENV_FS"
+									},
+									"model": {
+										"$ref": "M_ENV_FS"
+									},
+									"visible": false,
+									"lineColor": "#6B7280",
+									"fillColor": "#F3F4F6",
+									"fontColor": "#374151",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_ENV_FS",
+									"_parent": {
+										"$ref": "V_ENV_FS"
+									},
+									"model": {
+										"$ref": "M_ENV_FS"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXOjnT2wM=",
+											"_parent": {
+												"$ref": "NM_ENV_FS"
+											},
+											"visible": false,
+											"lineColor": "#6B7280",
+											"fillColor": "#F3F4F6",
+											"fontColor": "#374151",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 143.04443359375,
+											"height": 13,
+											"text": "(from DeploymentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXOjnUWao=",
+											"_parent": {
+												"$ref": "NM_ENV_FS"
+											},
+											"visible": false,
+											"lineColor": "#6B7280",
+											"fillColor": "#F3F4F6",
+											"fontColor": "#374151",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_ENV_FS",
+											"_parent": {
+												"$ref": "NM_ENV_FS"
+											},
+											"visible": false,
+											"lineColor": "#6B7280",
+											"fillColor": "#F3F4F6",
+											"fontColor": "#374151",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 75,
+											"top": 788,
+											"width": 700,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_ENV_FS",
+											"_parent": {
+												"$ref": "NM_ENV_FS"
+											},
+											"lineColor": "#6B7280",
+											"fillColor": "#F3F4F6",
+											"fontColor": "#374151",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 80,
+											"top": 797,
+											"width": 681,
+											"height": 13,
+											"text": "Local Workstation File System"
+										}
+									],
+									"lineColor": "#6B7280",
+									"fillColor": "#F3F4F6",
+									"fontColor": "#374151",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 75,
+									"top": 790,
+									"width": 691,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "ST_ENV_FS"
+									},
+									"nameLabel": {
+										"$ref": "LBL_ENV_FS"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQnjXOjnT2wM="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQnjXOjnUWao="
+									}
+								}
+							],
+							"lineColor": "#6B7280",
+							"fillColor": "#F3F4F6",
+							"fontColor": "#374151",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 75,
+							"top": 780,
+							"width": 700,
+							"height": 235,
+							"nameCompartment": {
+								"$ref": "NM_ENV_FS"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQnjXOjnMwwY="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQnjXOjnNkDw="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQnjXOjnOHMY="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQnjXOjnPJHw="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_INFO_ENV_FS",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"fontColor": "#374151",
+							"font": "Arial;9;2",
+							"parentStyle": false,
+							"left": 95,
+							"top": 826,
+							"width": 660,
+							"height": 21,
+							"text": "Project Working Directory: C:\\Projects\\CBPs\\Java"
+						},
+						{
+							"_type": "UMLNodeView",
+							"_id": "V_NODE_DB",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"model": {
+								"$ref": "M_NODE_DB"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQnjXOzneZdY=",
+									"_parent": {
+										"$ref": "V_NODE_DB"
+									},
+									"model": {
+										"$ref": "M_NODE_DB"
+									},
+									"lineColor": "#EA580C",
+									"fillColor": "#FFF7ED",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 990,
+									"top": 160,
+									"width": 741,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQnjXOznf4dk=",
+									"_parent": {
+										"$ref": "V_NODE_DB"
+									},
+									"model": {
+										"$ref": "M_NODE_DB"
+									},
+									"lineColor": "#EA580C",
+									"fillColor": "#FFF7ED",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 990,
+									"top": 170,
+									"width": 741,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQnjXOzngxt8=",
+									"_parent": {
+										"$ref": "V_NODE_DB"
+									},
+									"model": {
+										"$ref": "M_NODE_DB"
+									},
+									"visible": false,
+									"lineColor": "#EA580C",
+									"fillColor": "#FFF7ED",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQnjXOznhvog=",
+									"_parent": {
+										"$ref": "V_NODE_DB"
+									},
+									"model": {
+										"$ref": "M_NODE_DB"
+									},
+									"visible": false,
+									"lineColor": "#EA580C",
+									"fillColor": "#FFF7ED",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_NODE_DB",
+									"_parent": {
+										"$ref": "V_NODE_DB"
+									},
+									"model": {
+										"$ref": "M_NODE_DB"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXOznlC/s=",
+											"_parent": {
+												"$ref": "NM_NODE_DB"
+											},
+											"visible": false,
+											"lineColor": "#EA580C",
+											"fillColor": "#FFF7ED",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 143.04443359375,
+											"height": 13,
+											"text": "(from DeploymentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXOznmd5s=",
+											"_parent": {
+												"$ref": "NM_NODE_DB"
+											},
+											"visible": false,
+											"lineColor": "#EA580C",
+											"fillColor": "#FFF7ED",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_NODE_DB",
+											"_parent": {
+												"$ref": "NM_NODE_DB"
+											},
+											"visible": false,
+											"lineColor": "#EA580C",
+											"fillColor": "#FFF7ED",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 990,
+											"top": 133,
+											"width": 750,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_NODE_DB",
+											"_parent": {
+												"$ref": "NM_NODE_DB"
+											},
+											"lineColor": "#EA580C",
+											"fillColor": "#FFF7ED",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 995,
+											"top": 142,
+											"width": 731,
+											"height": 13,
+											"text": "Database Host Server"
+										}
+									],
+									"lineColor": "#EA580C",
+									"fillColor": "#FFF7ED",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 990,
+									"top": 135,
+									"width": 741,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "ST_NODE_DB"
+									},
+									"nameLabel": {
+										"$ref": "LBL_NODE_DB"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQnjXOznlC/s="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQnjXOznmd5s="
+									}
+								}
+							],
+							"lineColor": "#EA580C",
+							"fillColor": "#FFF7ED",
+							"fontColor": "#7C2D12",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 990,
+							"top": 125,
+							"width": 750,
+							"height": 920,
+							"nameCompartment": {
+								"$ref": "NM_NODE_DB"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQnjXOzneZdY="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQnjXOznf4dk="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQnjXOzngxt8="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQnjXOznhvog="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_INFO_NODE_DB",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"fontColor": "#7C2D12",
+							"font": "Arial;9;2",
+							"parentStyle": false,
+							"left": 1010,
+							"top": 171,
+							"width": 710,
+							"height": 21,
+							"text": "Host: Localhost / Dedicated Database Server (Port 3306) | Relational Storage Host"
+						},
+						{
+							"_type": "UMLNodeView",
+							"_id": "V_ENV_MYSQL",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"model": {
+								"$ref": "M_ENV_MYSQL"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQnjXOznwDGg=",
+									"_parent": {
+										"$ref": "V_ENV_MYSQL"
+									},
+									"model": {
+										"$ref": "M_ENV_MYSQL"
+									},
+									"lineColor": "#EA580C",
+									"fillColor": "#FFEDD5",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1015,
+									"top": 240,
+									"width": 691,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQnjXOznxpxA=",
+									"_parent": {
+										"$ref": "V_ENV_MYSQL"
+									},
+									"model": {
+										"$ref": "M_ENV_MYSQL"
+									},
+									"lineColor": "#EA580C",
+									"fillColor": "#FFEDD5",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1015,
+									"top": 250,
+									"width": 691,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQnjXOznyDig=",
+									"_parent": {
+										"$ref": "V_ENV_MYSQL"
+									},
+									"model": {
+										"$ref": "M_ENV_MYSQL"
+									},
+									"visible": false,
+									"lineColor": "#EA580C",
+									"fillColor": "#FFEDD5",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQnjXOznzUXw=",
+									"_parent": {
+										"$ref": "V_ENV_MYSQL"
+									},
+									"model": {
+										"$ref": "M_ENV_MYSQL"
+									},
+									"visible": false,
+									"lineColor": "#EA580C",
+									"fillColor": "#FFEDD5",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_ENV_MYSQL",
+									"_parent": {
+										"$ref": "V_ENV_MYSQL"
+									},
+									"model": {
+										"$ref": "M_ENV_MYSQL"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXOzn3pdc=",
+											"_parent": {
+												"$ref": "NM_ENV_MYSQL"
+											},
+											"visible": false,
+											"lineColor": "#EA580C",
+											"fillColor": "#FFEDD5",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 143.04443359375,
+											"height": 13,
+											"text": "(from DeploymentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXOzn47zs=",
+											"_parent": {
+												"$ref": "NM_ENV_MYSQL"
+											},
+											"visible": false,
+											"lineColor": "#EA580C",
+											"fillColor": "#FFEDD5",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_ENV_MYSQL",
+											"_parent": {
+												"$ref": "NM_ENV_MYSQL"
+											},
+											"visible": false,
+											"lineColor": "#EA580C",
+											"fillColor": "#FFEDD5",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 1015,
+											"top": 213,
+											"width": 700,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_ENV_MYSQL",
+											"_parent": {
+												"$ref": "NM_ENV_MYSQL"
+											},
+											"lineColor": "#EA580C",
+											"fillColor": "#FFEDD5",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 1020,
+											"top": 222,
+											"width": 681,
+											"height": 13,
+											"text": "MySQL Database Server Engine"
+										}
+									],
+									"lineColor": "#EA580C",
+									"fillColor": "#FFEDD5",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1015,
+									"top": 215,
+									"width": 691,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "ST_ENV_MYSQL"
+									},
+									"nameLabel": {
+										"$ref": "LBL_ENV_MYSQL"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQnjXOzn3pdc="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQnjXOzn47zs="
+									}
+								}
+							],
+							"lineColor": "#EA580C",
+							"fillColor": "#FFEDD5",
+							"fontColor": "#7C2D12",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 1015,
+							"top": 205,
+							"width": 700,
+							"height": 550,
+							"nameCompartment": {
+								"$ref": "NM_ENV_MYSQL"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQnjXOznwDGg="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQnjXOznxpxA="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQnjXOznyDig="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQnjXOznzUXw="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_INFO_ENV_MYSQL",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"fontColor": "#7C2D12",
+							"font": "Arial;9;2",
+							"parentStyle": false,
+							"left": 1035,
+							"top": 251,
+							"width": 660,
+							"height": 21,
+							"text": "RDBMS: MySQL Community Server 8.0+ Service Engine"
+						},
+						{
+							"_type": "UMLNodeView",
+							"_id": "V_ENV_DB_FS",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"model": {
+								"$ref": "M_ENV_DB_FS"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQnjXPDoCN7U=",
+									"_parent": {
+										"$ref": "V_ENV_DB_FS"
+									},
+									"model": {
+										"$ref": "M_ENV_DB_FS"
+									},
+									"lineColor": "#D97706",
+									"fillColor": "#FFFBEB",
+									"fontColor": "#78350F",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1015,
+									"top": 815,
+									"width": 691,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQnjXPDoDU+M=",
+									"_parent": {
+										"$ref": "V_ENV_DB_FS"
+									},
+									"model": {
+										"$ref": "M_ENV_DB_FS"
+									},
+									"lineColor": "#D97706",
+									"fillColor": "#FFFBEB",
+									"fontColor": "#78350F",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1015,
+									"top": 825,
+									"width": 691,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQnjXPDoEDYM=",
+									"_parent": {
+										"$ref": "V_ENV_DB_FS"
+									},
+									"model": {
+										"$ref": "M_ENV_DB_FS"
+									},
+									"visible": false,
+									"lineColor": "#D97706",
+									"fillColor": "#FFFBEB",
+									"fontColor": "#78350F",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQnjXPDoFw5E=",
+									"_parent": {
+										"$ref": "V_ENV_DB_FS"
+									},
+									"model": {
+										"$ref": "M_ENV_DB_FS"
+									},
+									"visible": false,
+									"lineColor": "#D97706",
+									"fillColor": "#FFFBEB",
+									"fontColor": "#78350F",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_ENV_DB_FS",
+									"_parent": {
+										"$ref": "V_ENV_DB_FS"
+									},
+									"model": {
+										"$ref": "M_ENV_DB_FS"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXPDoJGQA=",
+											"_parent": {
+												"$ref": "NM_ENV_DB_FS"
+											},
+											"visible": false,
+											"lineColor": "#D97706",
+											"fillColor": "#FFFBEB",
+											"fontColor": "#78350F",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 143.04443359375,
+											"height": 13,
+											"text": "(from DeploymentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXPDoKPq0=",
+											"_parent": {
+												"$ref": "NM_ENV_DB_FS"
+											},
+											"visible": false,
+											"lineColor": "#D97706",
+											"fillColor": "#FFFBEB",
+											"fontColor": "#78350F",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_ENV_DB_FS",
+											"_parent": {
+												"$ref": "NM_ENV_DB_FS"
+											},
+											"visible": false,
+											"lineColor": "#D97706",
+											"fillColor": "#FFFBEB",
+											"fontColor": "#78350F",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 1015,
+											"top": 788,
+											"width": 700,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_ENV_DB_FS",
+											"_parent": {
+												"$ref": "NM_ENV_DB_FS"
+											},
+											"lineColor": "#D97706",
+											"fillColor": "#FFFBEB",
+											"fontColor": "#78350F",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 1020,
+											"top": 797,
+											"width": 681,
+											"height": 13,
+											"text": "Server Storage / File System"
+										}
+									],
+									"lineColor": "#D97706",
+									"fillColor": "#FFFBEB",
+									"fontColor": "#78350F",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1015,
+									"top": 790,
+									"width": 691,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "ST_ENV_DB_FS"
+									},
+									"nameLabel": {
+										"$ref": "LBL_ENV_DB_FS"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQnjXPDoJGQA="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQnjXPDoKPq0="
+									}
+								}
+							],
+							"lineColor": "#D97706",
+							"fillColor": "#FFFBEB",
+							"fontColor": "#78350F",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 1015,
+							"top": 780,
+							"width": 700,
+							"height": 235,
+							"nameCompartment": {
+								"$ref": "NM_ENV_DB_FS"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQnjXPDoCN7U="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQnjXPDoDU+M="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQnjXPDoEDYM="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQnjXPDoFw5E="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_INFO_ENV_DB_FS",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"fontColor": "#78350F",
+							"font": "Arial;9;2",
+							"parentStyle": false,
+							"left": 1035,
+							"top": 826,
+							"width": 660,
+							"height": 21,
+							"text": "Storage: MySQL Data Directory & DDL Resource Files"
+						},
+						{
+							"_type": "UMLArtifactView",
+							"_id": "V_ART_MAIN",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"model": {
+								"$ref": "M_ART_MAIN"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQnjXPDoUKo8=",
+									"_parent": {
+										"$ref": "V_ART_MAIN"
+									},
+									"model": {
+										"$ref": "M_ART_MAIN"
+									},
+									"lineColor": "#2563EB",
+									"fillColor": "#BFDBFE",
+									"fontColor": "#1E3A8A",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 100,
+									"top": 325,
+									"width": 651,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQnjXPDoV4Gw=",
+									"_parent": {
+										"$ref": "V_ART_MAIN"
+									},
+									"model": {
+										"$ref": "M_ART_MAIN"
+									},
+									"lineColor": "#2563EB",
+									"fillColor": "#BFDBFE",
+									"fontColor": "#1E3A8A",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 100,
+									"top": 335,
+									"width": 651,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQnjXPDoWGKk=",
+									"_parent": {
+										"$ref": "V_ART_MAIN"
+									},
+									"model": {
+										"$ref": "M_ART_MAIN"
+									},
+									"visible": false,
+									"lineColor": "#2563EB",
+									"fillColor": "#BFDBFE",
+									"fontColor": "#1E3A8A",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQnjXPDoXaWU=",
+									"_parent": {
+										"$ref": "V_ART_MAIN"
+									},
+									"model": {
+										"$ref": "M_ART_MAIN"
+									},
+									"visible": false,
+									"lineColor": "#2563EB",
+									"fillColor": "#BFDBFE",
+									"fontColor": "#1E3A8A",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_ART_MAIN",
+									"_parent": {
+										"$ref": "V_ART_MAIN"
+									},
+									"model": {
+										"$ref": "M_ART_MAIN"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXPDob89g=",
+											"_parent": {
+												"$ref": "NM_ART_MAIN"
+											},
+											"visible": false,
+											"lineColor": "#2563EB",
+											"fillColor": "#BFDBFE",
+											"fontColor": "#1E3A8A",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 143.04443359375,
+											"height": 13,
+											"text": "(from DeploymentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXPDocc7Y=",
+											"_parent": {
+												"$ref": "NM_ART_MAIN"
+											},
+											"visible": false,
+											"lineColor": "#2563EB",
+											"fillColor": "#BFDBFE",
+											"fontColor": "#1E3A8A",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_ART_MAIN",
+											"_parent": {
+												"$ref": "NM_ART_MAIN"
+											},
+											"lineColor": "#2563EB",
+											"fillColor": "#BFDBFE",
+											"fontColor": "#1E3A8A",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 105,
+											"top": 292,
+											"width": 641,
+											"height": 13,
+											"text": "«artifact»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_ART_MAIN",
+											"_parent": {
+												"$ref": "NM_ART_MAIN"
+											},
+											"lineColor": "#2563EB",
+											"fillColor": "#BFDBFE",
+											"fontColor": "#1E3A8A",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 105,
+											"top": 307,
+											"width": 641,
+											"height": 13,
+											"text": "yieldgrid.main.Main"
+										}
+									],
+									"lineColor": "#2563EB",
+									"fillColor": "#BFDBFE",
+									"fontColor": "#1E3A8A",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 100,
+									"top": 285,
+									"width": 651,
+									"height": 40,
+									"stereotypeLabel": {
+										"$ref": "ST_ART_MAIN"
+									},
+									"nameLabel": {
+										"$ref": "LBL_ART_MAIN"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQnjXPDob89g="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQnjXPDocc7Y="
+									}
+								}
+							],
+							"lineColor": "#2563EB",
+							"fillColor": "#BFDBFE",
+							"fontColor": "#1E3A8A",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 100,
+							"top": 285,
+							"width": 650,
+							"height": 125,
+							"nameCompartment": {
+								"$ref": "NM_ART_MAIN"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQnjXPDoUKo8="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQnjXPDoV4Gw="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQnjXPDoWGKk="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQnjXPDoXaWU="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_DESC_ART_MAIN",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"fontColor": "#1F2937",
+							"font": "Arial;9;0",
+							"parentStyle": false,
+							"left": 114,
+							"top": 337,
+							"width": 622,
+							"height": 69,
+							"text": "Type: Java Desktop Application GUI (Swing Event Dispatch Thread)\nEntrypoint: public static void main(String[] args)\nSpawns: LoginFrame, dashboards, table models & background threads"
+						},
+						{
+							"_type": "UMLArtifactView",
+							"_id": "V_ART_BYTECODE",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"model": {
+								"$ref": "M_ART_BYTECODE"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQnjXPTomTX0=",
+									"_parent": {
+										"$ref": "V_ART_BYTECODE"
+									},
+									"model": {
+										"$ref": "M_ART_BYTECODE"
+									},
+									"lineColor": "#2563EB",
+									"fillColor": "#BFDBFE",
+									"fontColor": "#1E3A8A",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 100,
+									"top": 470,
+									"width": 651,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQnjXPTonslo=",
+									"_parent": {
+										"$ref": "V_ART_BYTECODE"
+									},
+									"model": {
+										"$ref": "M_ART_BYTECODE"
+									},
+									"lineColor": "#2563EB",
+									"fillColor": "#BFDBFE",
+									"fontColor": "#1E3A8A",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 100,
+									"top": 480,
+									"width": 651,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQnjXPTooFgw=",
+									"_parent": {
+										"$ref": "V_ART_BYTECODE"
+									},
+									"model": {
+										"$ref": "M_ART_BYTECODE"
+									},
+									"visible": false,
+									"lineColor": "#2563EB",
+									"fillColor": "#BFDBFE",
+									"fontColor": "#1E3A8A",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQnjXPTopFl0=",
+									"_parent": {
+										"$ref": "V_ART_BYTECODE"
+									},
+									"model": {
+										"$ref": "M_ART_BYTECODE"
+									},
+									"visible": false,
+									"lineColor": "#2563EB",
+									"fillColor": "#BFDBFE",
+									"fontColor": "#1E3A8A",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_ART_BYTECODE",
+									"_parent": {
+										"$ref": "V_ART_BYTECODE"
+									},
+									"model": {
+										"$ref": "M_ART_BYTECODE"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXPTothSg=",
+											"_parent": {
+												"$ref": "NM_ART_BYTECODE"
+											},
+											"visible": false,
+											"lineColor": "#2563EB",
+											"fillColor": "#BFDBFE",
+											"fontColor": "#1E3A8A",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 143.04443359375,
+											"height": 13,
+											"text": "(from DeploymentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXPTouFLQ=",
+											"_parent": {
+												"$ref": "NM_ART_BYTECODE"
+											},
+											"visible": false,
+											"lineColor": "#2563EB",
+											"fillColor": "#BFDBFE",
+											"fontColor": "#1E3A8A",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_ART_BYTECODE",
+											"_parent": {
+												"$ref": "NM_ART_BYTECODE"
+											},
+											"lineColor": "#2563EB",
+											"fillColor": "#BFDBFE",
+											"fontColor": "#1E3A8A",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 105,
+											"top": 437,
+											"width": 641,
+											"height": 13,
+											"text": "«artifact»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_ART_BYTECODE",
+											"_parent": {
+												"$ref": "NM_ART_BYTECODE"
+											},
+											"lineColor": "#2563EB",
+											"fillColor": "#BFDBFE",
+											"fontColor": "#1E3A8A",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 105,
+											"top": 452,
+											"width": 641,
+											"height": 13,
+											"text": "bin/ Compiled Classes (yieldgrid/**/*.class)"
+										}
+									],
+									"lineColor": "#2563EB",
+									"fillColor": "#BFDBFE",
+									"fontColor": "#1E3A8A",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 100,
+									"top": 430,
+									"width": 651,
+									"height": 40,
+									"stereotypeLabel": {
+										"$ref": "ST_ART_BYTECODE"
+									},
+									"nameLabel": {
+										"$ref": "LBL_ART_BYTECODE"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQnjXPTothSg="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQnjXPTouFLQ="
+									}
+								}
+							],
+							"lineColor": "#2563EB",
+							"fillColor": "#BFDBFE",
+							"fontColor": "#1E3A8A",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 100,
+							"top": 430,
+							"width": 650,
+							"height": 135,
+							"nameCompartment": {
+								"$ref": "NM_ART_BYTECODE"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQnjXPTomTX0="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQnjXPTonslo="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQnjXPTooFgw="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQnjXPTopFl0="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_DESC_ART_BYTECODE",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"fontColor": "#1F2937",
+							"font": "Arial;9;0",
+							"parentStyle": false,
+							"left": 114,
+							"top": 482,
+							"width": 622,
+							"height": 79,
+							"text": "Packages: yieldgrid.ui, yieldgrid.service, yieldgrid.dao,\nyieldgrid.model, yieldgrid.database, yieldgrid.util\nBuild target: javac -cp \"lib/mysql-connector-j-9.2.0.jar\" -d bin"
+						},
+						{
+							"_type": "UMLArtifactView",
+							"_id": "V_ART_DRIVER",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"model": {
+								"$ref": "M_ART_DRIVER"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQnjXPTo4Yjg=",
+									"_parent": {
+										"$ref": "V_ART_DRIVER"
+									},
+									"model": {
+										"$ref": "M_ART_DRIVER"
+									},
+									"lineColor": "#7C3AED",
+									"fillColor": "#EDE9FE",
+									"fontColor": "#4C1D95",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 100,
+									"top": 625,
+									"width": 651,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQnjXPTo5RNc=",
+									"_parent": {
+										"$ref": "V_ART_DRIVER"
+									},
+									"model": {
+										"$ref": "M_ART_DRIVER"
+									},
+									"lineColor": "#7C3AED",
+									"fillColor": "#EDE9FE",
+									"fontColor": "#4C1D95",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 100,
+									"top": 635,
+									"width": 651,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQnjXPTo6LAY=",
+									"_parent": {
+										"$ref": "V_ART_DRIVER"
+									},
+									"model": {
+										"$ref": "M_ART_DRIVER"
+									},
+									"visible": false,
+									"lineColor": "#7C3AED",
+									"fillColor": "#EDE9FE",
+									"fontColor": "#4C1D95",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQnjXPTo7GOs=",
+									"_parent": {
+										"$ref": "V_ART_DRIVER"
+									},
+									"model": {
+										"$ref": "M_ART_DRIVER"
+									},
+									"visible": false,
+									"lineColor": "#7C3AED",
+									"fillColor": "#EDE9FE",
+									"fontColor": "#4C1D95",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_ART_DRIVER",
+									"_parent": {
+										"$ref": "V_ART_DRIVER"
+									},
+									"model": {
+										"$ref": "M_ART_DRIVER"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXPTo/3fI=",
+											"_parent": {
+												"$ref": "NM_ART_DRIVER"
+											},
+											"visible": false,
+											"lineColor": "#7C3AED",
+											"fillColor": "#EDE9FE",
+											"fontColor": "#4C1D95",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 143.04443359375,
+											"height": 13,
+											"text": "(from DeploymentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXPTpAAh8=",
+											"_parent": {
+												"$ref": "NM_ART_DRIVER"
+											},
+											"visible": false,
+											"lineColor": "#7C3AED",
+											"fillColor": "#EDE9FE",
+											"fontColor": "#4C1D95",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_ART_DRIVER",
+											"_parent": {
+												"$ref": "NM_ART_DRIVER"
+											},
+											"lineColor": "#7C3AED",
+											"fillColor": "#EDE9FE",
+											"fontColor": "#4C1D95",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 105,
+											"top": 592,
+											"width": 641,
+											"height": 13,
+											"text": "«artifact»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_ART_DRIVER",
+											"_parent": {
+												"$ref": "NM_ART_DRIVER"
+											},
+											"lineColor": "#7C3AED",
+											"fillColor": "#EDE9FE",
+											"fontColor": "#4C1D95",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 105,
+											"top": 607,
+											"width": 641,
+											"height": 13,
+											"text": "lib/mysql-connector-j-9.2.0.jar"
+										}
+									],
+									"lineColor": "#7C3AED",
+									"fillColor": "#EDE9FE",
+									"fontColor": "#4C1D95",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 100,
+									"top": 585,
+									"width": 651,
+									"height": 40,
+									"stereotypeLabel": {
+										"$ref": "ST_ART_DRIVER"
+									},
+									"nameLabel": {
+										"$ref": "LBL_ART_DRIVER"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQnjXPTo/3fI="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQnjXPTpAAh8="
+									}
+								}
+							],
+							"lineColor": "#7C3AED",
+							"fillColor": "#EDE9FE",
+							"fontColor": "#4C1D95",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 100,
+							"top": 585,
+							"width": 650,
+							"height": 145,
+							"nameCompartment": {
+								"$ref": "NM_ART_DRIVER"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQnjXPTo4Yjg="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQnjXPTo5RNc="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQnjXPTo6LAY="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQnjXPTo7GOs="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_DESC_ART_DRIVER",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"fontColor": "#1F2937",
+							"font": "Arial;9;0",
+							"parentStyle": false,
+							"left": 114,
+							"top": 637,
+							"width": 622,
+							"height": 89,
+							"text": "Component: Official MySQL Connector/J Type 4 Direct JDBC Driver\nDriver Class: com.mysql.cj.jdbc.Driver (Loaded dynamically)\nRole: Translates SQL queries to MySQL binary socket protocol"
+						},
+						{
+							"_type": "UMLArtifactView",
+							"_id": "V_ART_CONFIG",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"model": {
+								"$ref": "M_ART_CONFIG"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQnjXPTpKMzQ=",
+									"_parent": {
+										"$ref": "V_ART_CONFIG"
+									},
+									"model": {
+										"$ref": "M_ART_CONFIG"
+									},
+									"lineColor": "#D97706",
+									"fillColor": "#FEF3C7",
+									"fontColor": "#78350F",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 100,
+									"top": 900,
+									"width": 311,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQnjXPTpLIUk=",
+									"_parent": {
+										"$ref": "V_ART_CONFIG"
+									},
+									"model": {
+										"$ref": "M_ART_CONFIG"
+									},
+									"lineColor": "#D97706",
+									"fillColor": "#FEF3C7",
+									"fontColor": "#78350F",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 100,
+									"top": 910,
+									"width": 311,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQnjXPjpM0fo=",
+									"_parent": {
+										"$ref": "V_ART_CONFIG"
+									},
+									"model": {
+										"$ref": "M_ART_CONFIG"
+									},
+									"visible": false,
+									"lineColor": "#D97706",
+									"fillColor": "#FEF3C7",
+									"fontColor": "#78350F",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQnjXPjpNAXw=",
+									"_parent": {
+										"$ref": "V_ART_CONFIG"
+									},
+									"model": {
+										"$ref": "M_ART_CONFIG"
+									},
+									"visible": false,
+									"lineColor": "#D97706",
+									"fillColor": "#FEF3C7",
+									"fontColor": "#78350F",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_ART_CONFIG",
+									"_parent": {
+										"$ref": "V_ART_CONFIG"
+									},
+									"model": {
+										"$ref": "M_ART_CONFIG"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXPjpRoc4=",
+											"_parent": {
+												"$ref": "NM_ART_CONFIG"
+											},
+											"visible": false,
+											"lineColor": "#D97706",
+											"fillColor": "#FEF3C7",
+											"fontColor": "#78350F",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 143.04443359375,
+											"height": 13,
+											"text": "(from DeploymentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXPjpSdsM=",
+											"_parent": {
+												"$ref": "NM_ART_CONFIG"
+											},
+											"visible": false,
+											"lineColor": "#D97706",
+											"fillColor": "#FEF3C7",
+											"fontColor": "#78350F",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_ART_CONFIG",
+											"_parent": {
+												"$ref": "NM_ART_CONFIG"
+											},
+											"lineColor": "#D97706",
+											"fillColor": "#FEF3C7",
+											"fontColor": "#78350F",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 105,
+											"top": 867,
+											"width": 301,
+											"height": 13,
+											"text": "«artifact»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_ART_CONFIG",
+											"_parent": {
+												"$ref": "NM_ART_CONFIG"
+											},
+											"lineColor": "#D97706",
+											"fillColor": "#FEF3C7",
+											"fontColor": "#78350F",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 105,
+											"top": 882,
+											"width": 301,
+											"height": 13,
+											"text": "config.properties"
+										}
+									],
+									"lineColor": "#D97706",
+									"fillColor": "#FEF3C7",
+									"fontColor": "#78350F",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 100,
+									"top": 860,
+									"width": 311,
+									"height": 40,
+									"stereotypeLabel": {
+										"$ref": "ST_ART_CONFIG"
+									},
+									"nameLabel": {
+										"$ref": "LBL_ART_CONFIG"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQnjXPjpRoc4="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQnjXPjpSdsM="
+									}
+								}
+							],
+							"lineColor": "#D97706",
+							"fillColor": "#FEF3C7",
+							"fontColor": "#78350F",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 100,
+							"top": 860,
+							"width": 310,
+							"height": 135,
+							"nameCompartment": {
+								"$ref": "NM_ART_CONFIG"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQnjXPTpKMzQ="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQnjXPTpLIUk="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQnjXPjpM0fo="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQnjXPjpNAXw="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_DESC_ART_CONFIG",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"fontColor": "#1F2937",
+							"font": "Arial;9;0",
+							"parentStyle": false,
+							"left": 114,
+							"top": 912,
+							"width": 282,
+							"height": 79,
+							"text": "External Database Configuration:\n• db.url = jdbc:mysql://localhost:3306/yieldgrid\n• db.username = root\n• db.password = \"\"\nDynamic loading via DBConnection.loadConfiguration()"
+						},
+						{
+							"_type": "UMLArtifactView",
+							"_id": "V_ART_SCRIPTS",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"model": {
+								"$ref": "M_ART_SCRIPTS"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQnjXPjpceMs=",
+									"_parent": {
+										"$ref": "V_ART_SCRIPTS"
+									},
+									"model": {
+										"$ref": "M_ART_SCRIPTS"
+									},
+									"lineColor": "#4B5563",
+									"fillColor": "#E5E7EB",
+									"fontColor": "#1F2937",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 440,
+									"top": 900,
+									"width": 311,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQnjXPjpd+ks=",
+									"_parent": {
+										"$ref": "V_ART_SCRIPTS"
+									},
+									"model": {
+										"$ref": "M_ART_SCRIPTS"
+									},
+									"lineColor": "#4B5563",
+									"fillColor": "#E5E7EB",
+									"fontColor": "#1F2937",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 440,
+									"top": 910,
+									"width": 311,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQnjXPjpeHDw=",
+									"_parent": {
+										"$ref": "V_ART_SCRIPTS"
+									},
+									"model": {
+										"$ref": "M_ART_SCRIPTS"
+									},
+									"visible": false,
+									"lineColor": "#4B5563",
+									"fillColor": "#E5E7EB",
+									"fontColor": "#1F2937",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQnjXPjpfeGo=",
+									"_parent": {
+										"$ref": "V_ART_SCRIPTS"
+									},
+									"model": {
+										"$ref": "M_ART_SCRIPTS"
+									},
+									"visible": false,
+									"lineColor": "#4B5563",
+									"fillColor": "#E5E7EB",
+									"fontColor": "#1F2937",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_ART_SCRIPTS",
+									"_parent": {
+										"$ref": "V_ART_SCRIPTS"
+									},
+									"model": {
+										"$ref": "M_ART_SCRIPTS"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXPjpjjXQ=",
+											"_parent": {
+												"$ref": "NM_ART_SCRIPTS"
+											},
+											"visible": false,
+											"lineColor": "#4B5563",
+											"fillColor": "#E5E7EB",
+											"fontColor": "#1F2937",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 143.04443359375,
+											"height": 13,
+											"text": "(from DeploymentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXPjpkGJU=",
+											"_parent": {
+												"$ref": "NM_ART_SCRIPTS"
+											},
+											"visible": false,
+											"lineColor": "#4B5563",
+											"fillColor": "#E5E7EB",
+											"fontColor": "#1F2937",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_ART_SCRIPTS",
+											"_parent": {
+												"$ref": "NM_ART_SCRIPTS"
+											},
+											"lineColor": "#4B5563",
+											"fillColor": "#E5E7EB",
+											"fontColor": "#1F2937",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 445,
+											"top": 867,
+											"width": 301,
+											"height": 13,
+											"text": "«artifact»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_ART_SCRIPTS",
+											"_parent": {
+												"$ref": "NM_ART_SCRIPTS"
+											},
+											"lineColor": "#4B5563",
+											"fillColor": "#E5E7EB",
+											"fontColor": "#1F2937",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 445,
+											"top": 882,
+											"width": 301,
+											"height": 13,
+											"text": "compile.bat & run.bat"
+										}
+									],
+									"lineColor": "#4B5563",
+									"fillColor": "#E5E7EB",
+									"fontColor": "#1F2937",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 440,
+									"top": 860,
+									"width": 311,
+									"height": 40,
+									"stereotypeLabel": {
+										"$ref": "ST_ART_SCRIPTS"
+									},
+									"nameLabel": {
+										"$ref": "LBL_ART_SCRIPTS"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQnjXPjpjjXQ="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQnjXPjpkGJU="
+									}
+								}
+							],
+							"lineColor": "#4B5563",
+							"fillColor": "#E5E7EB",
+							"fontColor": "#1F2937",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 440,
+							"top": 860,
+							"width": 310,
+							"height": 135,
+							"nameCompartment": {
+								"$ref": "NM_ART_SCRIPTS"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQnjXPjpceMs="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQnjXPjpd+ks="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQnjXPjpeHDw="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQnjXPjpfeGo="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_DESC_ART_SCRIPTS",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"fontColor": "#1F2937",
+							"font": "Arial;9;0",
+							"parentStyle": false,
+							"left": 454,
+							"top": 912,
+							"width": 282,
+							"height": 79,
+							"text": "CLI Build & Execution Scripts:\n• compile.bat: automated javac compilation\n• run.bat: launches JVM with cp \"bin;lib/...\"\nStandard Windows command scripts"
+						},
+						{
+							"_type": "UMLArtifactView",
+							"_id": "V_ART_SCHEMA",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"model": {
+								"$ref": "M_ART_SCHEMA"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQnjXPjpuv60=",
+									"_parent": {
+										"$ref": "V_ART_SCHEMA"
+									},
+									"model": {
+										"$ref": "M_ART_SCHEMA"
+									},
+									"lineColor": "#C2410C",
+									"fillColor": "#FED7AA",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1040,
+									"top": 325,
+									"width": 651,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQnjXPjpvF20=",
+									"_parent": {
+										"$ref": "V_ART_SCHEMA"
+									},
+									"model": {
+										"$ref": "M_ART_SCHEMA"
+									},
+									"lineColor": "#C2410C",
+									"fillColor": "#FED7AA",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1040,
+									"top": 335,
+									"width": 651,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQnjXPjpwRhc=",
+									"_parent": {
+										"$ref": "V_ART_SCHEMA"
+									},
+									"model": {
+										"$ref": "M_ART_SCHEMA"
+									},
+									"visible": false,
+									"lineColor": "#C2410C",
+									"fillColor": "#FED7AA",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQnjXPjpx/vE=",
+									"_parent": {
+										"$ref": "V_ART_SCHEMA"
+									},
+									"model": {
+										"$ref": "M_ART_SCHEMA"
+									},
+									"visible": false,
+									"lineColor": "#C2410C",
+									"fillColor": "#FED7AA",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_ART_SCHEMA",
+									"_parent": {
+										"$ref": "V_ART_SCHEMA"
+									},
+									"model": {
+										"$ref": "M_ART_SCHEMA"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXPjp1IqI=",
+											"_parent": {
+												"$ref": "NM_ART_SCHEMA"
+											},
+											"visible": false,
+											"lineColor": "#C2410C",
+											"fillColor": "#FED7AA",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 143.04443359375,
+											"height": 13,
+											"text": "(from DeploymentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXPjp25nA=",
+											"_parent": {
+												"$ref": "NM_ART_SCHEMA"
+											},
+											"visible": false,
+											"lineColor": "#C2410C",
+											"fillColor": "#FED7AA",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_ART_SCHEMA",
+											"_parent": {
+												"$ref": "NM_ART_SCHEMA"
+											},
+											"lineColor": "#C2410C",
+											"fillColor": "#FED7AA",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 1045,
+											"top": 292,
+											"width": 641,
+											"height": 13,
+											"text": "«artifact»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_ART_SCHEMA",
+											"_parent": {
+												"$ref": "NM_ART_SCHEMA"
+											},
+											"lineColor": "#C2410C",
+											"fillColor": "#FED7AA",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 1045,
+											"top": 307,
+											"width": 641,
+											"height": 13,
+											"text": "yieldgrid Relational Database Schema"
+										}
+									],
+									"lineColor": "#C2410C",
+									"fillColor": "#FED7AA",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1040,
+									"top": 285,
+									"width": 651,
+									"height": 40,
+									"stereotypeLabel": {
+										"$ref": "ST_ART_SCHEMA"
+									},
+									"nameLabel": {
+										"$ref": "LBL_ART_SCHEMA"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQnjXPjp1IqI="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQnjXPjp25nA="
+									}
+								}
+							],
+							"lineColor": "#C2410C",
+							"fillColor": "#FED7AA",
+							"fontColor": "#7C2D12",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 1040,
+							"top": 285,
+							"width": 650,
+							"height": 215,
+							"nameCompartment": {
+								"$ref": "NM_ART_SCHEMA"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQnjXPjpuv60="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQnjXPjpvF20="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQnjXPjpwRhc="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQnjXPjpx/vE="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_DESC_ART_SCHEMA",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"fontColor": "#1F2937",
+							"font": "Arial;9;0",
+							"parentStyle": false,
+							"left": 1054,
+							"top": 337,
+							"width": 622,
+							"height": 159,
+							"text": "Database: yieldgrid (Character set: utf8mb4_unicode_ci)\nRelational Tables & Schema Structures:\n• users (user_id PK, name, username UNIQUE, password, role, contact, is_active)\n• crops (crop_id PK, farmer_id FK, crop_name, quantity, price, available)\n• orders (order_id PK, customer_id FK, order_date, total_amount, status)\n• order_items (item_id PK, order_id FK, crop_id FK, quantity, unit_price, subtotal)"
+						},
+						{
+							"_type": "UMLArtifactView",
+							"_id": "V_ART_SEED",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"model": {
+								"$ref": "M_ART_SEED"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQnjXPzqAhps=",
+									"_parent": {
+										"$ref": "V_ART_SEED"
+									},
+									"model": {
+										"$ref": "M_ART_SEED"
+									},
+									"lineColor": "#EA580C",
+									"fillColor": "#FFEDD5",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1040,
+									"top": 560,
+									"width": 651,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQnjXPzqB4Gw=",
+									"_parent": {
+										"$ref": "V_ART_SEED"
+									},
+									"model": {
+										"$ref": "M_ART_SEED"
+									},
+									"lineColor": "#EA580C",
+									"fillColor": "#FFEDD5",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1040,
+									"top": 570,
+									"width": 651,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQnjXPzqCfc0=",
+									"_parent": {
+										"$ref": "V_ART_SEED"
+									},
+									"model": {
+										"$ref": "M_ART_SEED"
+									},
+									"visible": false,
+									"lineColor": "#EA580C",
+									"fillColor": "#FFEDD5",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQnjXPzqDYcU=",
+									"_parent": {
+										"$ref": "V_ART_SEED"
+									},
+									"model": {
+										"$ref": "M_ART_SEED"
+									},
+									"visible": false,
+									"lineColor": "#EA580C",
+									"fillColor": "#FFEDD5",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_ART_SEED",
+									"_parent": {
+										"$ref": "V_ART_SEED"
+									},
+									"model": {
+										"$ref": "M_ART_SEED"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXPzqHWIQ=",
+											"_parent": {
+												"$ref": "NM_ART_SEED"
+											},
+											"visible": false,
+											"lineColor": "#EA580C",
+											"fillColor": "#FFEDD5",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 143.04443359375,
+											"height": 13,
+											"text": "(from DeploymentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXPzqIink=",
+											"_parent": {
+												"$ref": "NM_ART_SEED"
+											},
+											"visible": false,
+											"lineColor": "#EA580C",
+											"fillColor": "#FFEDD5",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_ART_SEED",
+											"_parent": {
+												"$ref": "NM_ART_SEED"
+											},
+											"lineColor": "#EA580C",
+											"fillColor": "#FFEDD5",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 1045,
+											"top": 527,
+											"width": 641,
+											"height": 13,
+											"text": "«artifact»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_ART_SEED",
+											"_parent": {
+												"$ref": "NM_ART_SEED"
+											},
+											"lineColor": "#EA580C",
+											"fillColor": "#FFEDD5",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 1045,
+											"top": 542,
+											"width": 641,
+											"height": 13,
+											"text": "YieldGrid Seed Dataset"
+										}
+									],
+									"lineColor": "#EA580C",
+									"fillColor": "#FFEDD5",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1040,
+									"top": 520,
+									"width": 651,
+									"height": 40,
+									"stereotypeLabel": {
+										"$ref": "ST_ART_SEED"
+									},
+									"nameLabel": {
+										"$ref": "LBL_ART_SEED"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQnjXPzqHWIQ="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQnjXPzqIink="
+									}
+								}
+							],
+							"lineColor": "#EA580C",
+							"fillColor": "#FFEDD5",
+							"fontColor": "#7C2D12",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 1040,
+							"top": 520,
+							"width": 650,
+							"height": 210,
+							"nameCompartment": {
+								"$ref": "NM_ART_SEED"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQnjXPzqAhps="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQnjXPzqB4Gw="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQnjXPzqCfc0="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQnjXPzqDYcU="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_DESC_ART_SEED",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"fontColor": "#1F2937",
+							"font": "Arial;9;0",
+							"parentStyle": false,
+							"left": 1054,
+							"top": 572,
+							"width": 622,
+							"height": 154,
+							"text": "Embedded Bootstrap Seed Records:\n• Admin: System Administrator ('admin' / hashed 'admin123')\n• Farmers: Ramesh Kumar (Green Valley), Suresh Patel (Sunshine Farm)\n• Customers: Anita Sharma, Vikram Reddy (Retail buyers)\n• Crops: Organic Tomato, Russet Potato, Red Onion, Carrot, Spinach, Chilli\nPre-seeded automatically via DBConnection on first launch"
+						},
+						{
+							"_type": "UMLArtifactView",
+							"_id": "V_ART_SQL",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"model": {
+								"$ref": "M_ART_SQL"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQnjXPzqSI/E=",
+									"_parent": {
+										"$ref": "V_ART_SQL"
+									},
+									"model": {
+										"$ref": "M_ART_SQL"
+									},
+									"lineColor": "#D97706",
+									"fillColor": "#FEF3C7",
+									"fontColor": "#78350F",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1040,
+									"top": 900,
+									"width": 311,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQnjXPzqT46I=",
+									"_parent": {
+										"$ref": "V_ART_SQL"
+									},
+									"model": {
+										"$ref": "M_ART_SQL"
+									},
+									"lineColor": "#D97706",
+									"fillColor": "#FEF3C7",
+									"fontColor": "#78350F",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1040,
+									"top": 910,
+									"width": 311,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQnjXPzqUJmI=",
+									"_parent": {
+										"$ref": "V_ART_SQL"
+									},
+									"model": {
+										"$ref": "M_ART_SQL"
+									},
+									"visible": false,
+									"lineColor": "#D97706",
+									"fillColor": "#FEF3C7",
+									"fontColor": "#78350F",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQnjXPzqV06E=",
+									"_parent": {
+										"$ref": "V_ART_SQL"
+									},
+									"model": {
+										"$ref": "M_ART_SQL"
+									},
+									"visible": false,
+									"lineColor": "#D97706",
+									"fillColor": "#FEF3C7",
+									"fontColor": "#78350F",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_ART_SQL",
+									"_parent": {
+										"$ref": "V_ART_SQL"
+									},
+									"model": {
+										"$ref": "M_ART_SQL"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXPzqZWI8=",
+											"_parent": {
+												"$ref": "NM_ART_SQL"
+											},
+											"visible": false,
+											"lineColor": "#D97706",
+											"fillColor": "#FEF3C7",
+											"fontColor": "#78350F",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 143.04443359375,
+											"height": 13,
+											"text": "(from DeploymentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXPzqail8=",
+											"_parent": {
+												"$ref": "NM_ART_SQL"
+											},
+											"visible": false,
+											"lineColor": "#D97706",
+											"fillColor": "#FEF3C7",
+											"fontColor": "#78350F",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_ART_SQL",
+											"_parent": {
+												"$ref": "NM_ART_SQL"
+											},
+											"lineColor": "#D97706",
+											"fillColor": "#FEF3C7",
+											"fontColor": "#78350F",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 1045,
+											"top": 867,
+											"width": 301,
+											"height": 13,
+											"text": "«artifact»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_ART_SQL",
+											"_parent": {
+												"$ref": "NM_ART_SQL"
+											},
+											"lineColor": "#D97706",
+											"fillColor": "#FEF3C7",
+											"fontColor": "#78350F",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 1045,
+											"top": 882,
+											"width": 301,
+											"height": 13,
+											"text": "database.sql / schema.sql"
+										}
+									],
+									"lineColor": "#D97706",
+									"fillColor": "#FEF3C7",
+									"fontColor": "#78350F",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1040,
+									"top": 860,
+									"width": 311,
+									"height": 40,
+									"stereotypeLabel": {
+										"$ref": "ST_ART_SQL"
+									},
+									"nameLabel": {
+										"$ref": "LBL_ART_SQL"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQnjXPzqZWI8="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQnjXPzqail8="
+									}
+								}
+							],
+							"lineColor": "#D97706",
+							"fillColor": "#FEF3C7",
+							"fontColor": "#78350F",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 1040,
+							"top": 860,
+							"width": 310,
+							"height": 135,
+							"nameCompartment": {
+								"$ref": "NM_ART_SQL"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQnjXPzqSI/E="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQnjXPzqT46I="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQnjXPzqUJmI="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQnjXPzqV06E="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_DESC_ART_SQL",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"fontColor": "#1F2937",
+							"font": "Arial;9;0",
+							"parentStyle": false,
+							"left": 1054,
+							"top": 912,
+							"width": 282,
+							"height": 79,
+							"text": "DDL / DML Definitions:\n• CREATE DATABASE IF NOT EXISTS yieldgrid\n• CREATE TABLE statements with FKs & Indexes\n• Default SQL population script"
+						},
+						{
+							"_type": "UMLArtifactView",
+							"_id": "V_ART_INNODB",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"model": {
+								"$ref": "M_ART_INNODB"
+							},
+							"subViews": [
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhQnjXPzqknzw=",
+									"_parent": {
+										"$ref": "V_ART_INNODB"
+									},
+									"model": {
+										"$ref": "M_ART_INNODB"
+									},
+									"lineColor": "#EA580C",
+									"fillColor": "#FFEDD5",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1380,
+									"top": 900,
+									"width": 311,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhQnjXPzqlWZE=",
+									"_parent": {
+										"$ref": "V_ART_INNODB"
+									},
+									"model": {
+										"$ref": "M_ART_INNODB"
+									},
+									"lineColor": "#EA580C",
+									"fillColor": "#FFEDD5",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1380,
+									"top": 910,
+									"width": 311,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhQnjXPzqmLJQ=",
+									"_parent": {
+										"$ref": "V_ART_INNODB"
+									},
+									"model": {
+										"$ref": "M_ART_INNODB"
+									},
+									"visible": false,
+									"lineColor": "#EA580C",
+									"fillColor": "#FFEDD5",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhQnjXPzqnJok=",
+									"_parent": {
+										"$ref": "V_ART_INNODB"
+									},
+									"model": {
+										"$ref": "M_ART_INNODB"
+									},
+									"visible": false,
+									"lineColor": "#EA580C",
+									"fillColor": "#FFEDD5",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "NM_ART_INNODB",
+									"_parent": {
+										"$ref": "V_ART_INNODB"
+									},
+									"model": {
+										"$ref": "M_ART_INNODB"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXPzqr+d4=",
+											"_parent": {
+												"$ref": "NM_ART_INNODB"
+											},
+											"visible": false,
+											"lineColor": "#EA580C",
+											"fillColor": "#FFEDD5",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 143.04443359375,
+											"height": 13,
+											"text": "(from DeploymentModel)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhQnjXPzqsoqI=",
+											"_parent": {
+												"$ref": "NM_ART_INNODB"
+											},
+											"visible": false,
+											"lineColor": "#EA580C",
+											"fillColor": "#FFEDD5",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "ST_ART_INNODB",
+											"_parent": {
+												"$ref": "NM_ART_INNODB"
+											},
+											"lineColor": "#EA580C",
+											"fillColor": "#FFEDD5",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 1385,
+											"top": 867,
+											"width": 301,
+											"height": 13,
+											"text": "«artifact»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "LBL_ART_INNODB",
+											"_parent": {
+												"$ref": "NM_ART_INNODB"
+											},
+											"lineColor": "#EA580C",
+											"fillColor": "#FFEDD5",
+											"fontColor": "#7C2D12",
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 1385,
+											"top": 882,
+											"width": 301,
+											"height": 13,
+											"text": "InnoDB Storage Files (*.ibd)"
+										}
+									],
+									"lineColor": "#EA580C",
+									"fillColor": "#FFEDD5",
+									"fontColor": "#7C2D12",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 1380,
+									"top": 860,
+									"width": 311,
+									"height": 40,
+									"stereotypeLabel": {
+										"$ref": "ST_ART_INNODB"
+									},
+									"nameLabel": {
+										"$ref": "LBL_ART_INNODB"
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhQnjXPzqr+d4="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhQnjXPzqsoqI="
+									}
+								}
+							],
+							"lineColor": "#EA580C",
+							"fillColor": "#FFEDD5",
+							"fontColor": "#7C2D12",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 1380,
+							"top": 860,
+							"width": 310,
+							"height": 135,
+							"nameCompartment": {
+								"$ref": "NM_ART_INNODB"
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhQnjXPzqknzw="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhQnjXPzqlWZE="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhQnjXPzqmLJQ="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhQnjXPzqnJok="
+							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "TXT_DESC_ART_INNODB",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"fontColor": "#1F2937",
+							"font": "Arial;9;0",
+							"parentStyle": false,
+							"left": 1394,
+							"top": 912,
+							"width": 282,
+							"height": 79,
+							"text": "Physical Tablespace & Transaction Logs:\n• ACID transaction compliance\n• Row-level concurrency locking\n• Crash recovery and foreign key indexes"
+						},
+						{
+							"_type": "UMLCommunicationPathView",
+							"_id": "V_COMM_PATH_JDBC",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"model": {
+								"$ref": "COMM_PATH_JDBC"
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQnjXQDqyIO8=",
+									"_parent": {
+										"$ref": "V_COMM_PATH_JDBC"
+									},
+									"model": {
+										"$ref": "COMM_PATH_JDBC"
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 895,
+									"top": 549,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "V_COMM_PATH_JDBC"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQnjXQDqzXBU=",
+									"_parent": {
+										"$ref": "V_COMM_PATH_JDBC"
+									},
+									"model": {
+										"$ref": "COMM_PATH_JDBC"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 895,
+									"top": 594,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "V_COMM_PATH_JDBC"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQnjXQDq0oPk=",
+									"_parent": {
+										"$ref": "V_COMM_PATH_JDBC"
+									},
+									"model": {
+										"$ref": "COMM_END_1"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 826,
+									"top": 564,
+									"height": 13,
+									"alpha": 0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "V_COMM_PATH_JDBC"
+									},
+									"edgePosition": 2
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQnjXQDq1FKg=",
+									"_parent": {
+										"$ref": "V_COMM_PATH_JDBC"
+									},
+									"model": {
+										"$ref": "COMM_END_1"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 829,
+									"top": 550,
+									"height": 13,
+									"alpha": 0.7853981633974483,
+									"distance": 40,
+									"hostEdge": {
+										"$ref": "V_COMM_PATH_JDBC"
+									},
+									"edgePosition": 2
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQnjXQDq2FI0=",
+									"_parent": {
+										"$ref": "V_COMM_PATH_JDBC"
+									},
+									"model": {
+										"$ref": "COMM_END_1"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 822,
+									"top": 591,
+									"height": 13,
+									"alpha": -0.5235987755982988,
+									"distance": 25,
+									"hostEdge": {
+										"$ref": "V_COMM_PATH_JDBC"
+									},
+									"edgePosition": 2
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQnjXQDq3xAA=",
+									"_parent": {
+										"$ref": "V_COMM_PATH_JDBC"
+									},
+									"model": {
+										"$ref": "COMM_END_2"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 963,
+									"top": 564,
+									"height": 13,
+									"alpha": -0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "V_COMM_PATH_JDBC"
+									}
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQnjXQDq4PwA=",
+									"_parent": {
+										"$ref": "V_COMM_PATH_JDBC"
+									},
+									"model": {
+										"$ref": "COMM_END_2"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 960,
+									"top": 550,
+									"height": 13,
+									"alpha": -0.7853981633974483,
+									"distance": 40,
+									"hostEdge": {
+										"$ref": "V_COMM_PATH_JDBC"
+									}
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQnjXQDq5IMQ=",
+									"_parent": {
+										"$ref": "V_COMM_PATH_JDBC"
+									},
+									"model": {
+										"$ref": "COMM_END_2"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 967,
+									"top": 591,
+									"height": 13,
+									"alpha": 0.5235987755982988,
+									"distance": 25,
+									"hostEdge": {
+										"$ref": "V_COMM_PATH_JDBC"
+									}
+								},
+								{
+									"_type": "UMLQualifierCompartmentView",
+									"_id": "AAAAAAGhQnjXQDq6uO4=",
+									"_parent": {
+										"$ref": "V_COMM_PATH_JDBC"
+									},
+									"model": {
+										"$ref": "COMM_END_1"
+									},
+									"visible": false,
+									"lineColor": "#0F172A",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLQualifierCompartmentView",
+									"_id": "AAAAAAGhQnjXQDq76sM=",
+									"_parent": {
+										"$ref": "V_COMM_PATH_JDBC"
+									},
+									"model": {
+										"$ref": "COMM_END_2"
+									},
+									"visible": false,
+									"lineColor": "#0F172A",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "LBL_COMM_JDBC",
+									"_parent": {
+										"$ref": "V_COMM_PATH_JDBC"
+									},
+									"model": {
+										"$ref": "COMM_PATH_JDBC"
+									},
+									"font": "Arial;10;1",
+									"parentStyle": false,
+									"left": 872,
+									"top": 578,
+									"width": 160,
+									"height": 10,
+									"alpha": -0.027020456486536837,
+									"distance": 37.013511046643494,
+									"text": "TCP/IP : 3306 (JDBC)"
+								}
+							],
+							"lineColor": "#0F172A",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "V_NODE_DB"
+							},
+							"tail": {
+								"$ref": "V_NODE_CLIENT"
+							},
+							"lineStyle": 1,
+							"points": "801:585;989:585",
+							"nameLabel": {
+								"$ref": "LBL_COMM_JDBC"
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGhQnjXQDqyIO8="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGhQnjXQDqzXBU="
+							},
+							"tailRoleNameLabel": {
+								"$ref": "AAAAAAGhQnjXQDq0oPk="
+							},
+							"tailPropertyLabel": {
+								"$ref": "AAAAAAGhQnjXQDq1FKg="
+							},
+							"tailMultiplicityLabel": {
+								"$ref": "AAAAAAGhQnjXQDq2FI0="
+							},
+							"headRoleNameLabel": {
+								"$ref": "AAAAAAGhQnjXQDq3xAA="
+							},
+							"headPropertyLabel": {
+								"$ref": "AAAAAAGhQnjXQDq4PwA="
+							},
+							"headMultiplicityLabel": {
+								"$ref": "AAAAAAGhQnjXQDq5IMQ="
+							},
+							"tailQualifiersCompartment": {
+								"$ref": "AAAAAAGhQnjXQDq6uO4="
+							},
+							"headQualifiersCompartment": {
+								"$ref": "AAAAAAGhQnjXQDq76sM="
+							}
+						},
+						{
+							"_type": "UMLDependencyView",
+							"_id": "V_DEP_CONFIG",
+							"_parent": {
+								"$ref": "DIAG_YG_DEPLOY"
+							},
+							"model": {
+								"$ref": "DEP_BYTECODE_CONFIG"
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQnjXQDq/xtA=",
+									"_parent": {
+										"$ref": "V_DEP_CONFIG"
+									},
+									"model": {
+										"$ref": "DEP_BYTECODE_CONFIG"
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 367,
+									"top": 717,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "V_DEP_CONFIG"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGhQnjXQDrAE+0=",
+									"_parent": {
+										"$ref": "V_DEP_CONFIG"
+									},
+									"model": {
+										"$ref": "DEP_BYTECODE_CONFIG"
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 326,
+									"top": 700,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "V_DEP_CONFIG"
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "LBL_DEP_CONFIG",
+									"_parent": {
+										"$ref": "V_DEP_CONFIG"
+									},
+									"model": {
+										"$ref": "DEP_BYTECODE_CONFIG"
+									},
+									"font": "Arial;9;1",
+									"parentStyle": false,
+									"left": 222,
+									"top": 855,
+									"width": 120,
+									"height": 9,
+									"alpha": 0,
+									"distance": 0,
+									"text": "reads properties"
+								}
+							],
+							"lineColor": "#D97706",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "V_ART_CONFIG"
+							},
+							"tail": {
+								"$ref": "V_ART_BYTECODE"
+							},
+							"lineStyle": 1,
+							"points": "398:566;282:859",
+							"nameLabel": {
+								"$ref": "LBL_DEP_CONFIG"
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGhQnjXQDq/xtA="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGhQnjXQDrAE+0="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLNode",
+					"_id": "M_NODE_CLIENT",
+					"_parent": {
+						"$ref": "MOD_YG_DEPLOY"
+					},
+					"name": "Client Workstation PC",
+					"ownedElements": [
+						{
+							"_type": "UMLCommunicationPath",
+							"_id": "COMM_PATH_JDBC",
+							"_parent": {
+								"$ref": "M_NODE_CLIENT"
+							},
+							"name": "TCP/IP : 3306 (JDBC)",
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "COMM_END_1",
+								"_parent": {
+									"$ref": "COMM_PATH_JDBC"
+								},
+								"reference": {
+									"$ref": "M_NODE_CLIENT"
+								}
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "COMM_END_2",
+								"_parent": {
+									"$ref": "COMM_PATH_JDBC"
+								},
+								"reference": {
+									"$ref": "M_NODE_DB"
+								}
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLNode",
+					"_id": "M_ENV_JVM",
+					"_parent": {
+						"$ref": "MOD_YG_DEPLOY"
+					},
+					"name": "Java Virtual Machine (JVM)"
+				},
+				{
+					"_type": "UMLNode",
+					"_id": "M_ENV_FS",
+					"_parent": {
+						"$ref": "MOD_YG_DEPLOY"
+					},
+					"name": "Local Workstation File System"
+				},
+				{
+					"_type": "UMLNode",
+					"_id": "M_NODE_DB",
+					"_parent": {
+						"$ref": "MOD_YG_DEPLOY"
+					},
+					"name": "Database Host Server"
+				},
+				{
+					"_type": "UMLNode",
+					"_id": "M_ENV_MYSQL",
+					"_parent": {
+						"$ref": "MOD_YG_DEPLOY"
+					},
+					"name": "MySQL Database Server Engine"
+				},
+				{
+					"_type": "UMLNode",
+					"_id": "M_ENV_DB_FS",
+					"_parent": {
+						"$ref": "MOD_YG_DEPLOY"
+					},
+					"name": "Server Storage / File System"
+				},
+				{
+					"_type": "UMLArtifact",
+					"_id": "M_ART_MAIN",
+					"_parent": {
+						"$ref": "MOD_YG_DEPLOY"
+					},
+					"name": "yieldgrid.main.Main"
+				},
+				{
+					"_type": "UMLArtifact",
+					"_id": "M_ART_BYTECODE",
+					"_parent": {
+						"$ref": "MOD_YG_DEPLOY"
+					},
+					"name": "bin/ Compiled Classes (yieldgrid/**/*.class)",
+					"ownedElements": [
+						{
+							"_type": "UMLDependency",
+							"_id": "DEP_BYTECODE_CONFIG",
+							"_parent": {
+								"$ref": "M_ART_BYTECODE"
+							},
+							"name": "reads properties",
+							"source": {
+								"$ref": "M_ART_BYTECODE"
+							},
+							"target": {
+								"$ref": "M_ART_CONFIG"
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLArtifact",
+					"_id": "M_ART_DRIVER",
+					"_parent": {
+						"$ref": "MOD_YG_DEPLOY"
+					},
+					"name": "lib/mysql-connector-j-9.2.0.jar"
+				},
+				{
+					"_type": "UMLArtifact",
+					"_id": "M_ART_CONFIG",
+					"_parent": {
+						"$ref": "MOD_YG_DEPLOY"
+					},
+					"name": "config.properties"
+				},
+				{
+					"_type": "UMLArtifact",
+					"_id": "M_ART_SCRIPTS",
+					"_parent": {
+						"$ref": "MOD_YG_DEPLOY"
+					},
+					"name": "compile.bat & run.bat"
+				},
+				{
+					"_type": "UMLArtifact",
+					"_id": "M_ART_SCHEMA",
+					"_parent": {
+						"$ref": "MOD_YG_DEPLOY"
+					},
+					"name": "yieldgrid Relational Database Schema"
+				},
+				{
+					"_type": "UMLArtifact",
+					"_id": "M_ART_SEED",
+					"_parent": {
+						"$ref": "MOD_YG_DEPLOY"
+					},
+					"name": "YieldGrid Seed Dataset"
+				},
+				{
+					"_type": "UMLArtifact",
+					"_id": "M_ART_SQL",
+					"_parent": {
+						"$ref": "MOD_YG_DEPLOY"
+					},
+					"name": "database.sql / schema.sql"
+				},
+				{
+					"_type": "UMLArtifact",
+					"_id": "M_ART_INNODB",
+					"_parent": {
+						"$ref": "MOD_YG_DEPLOY"
+					},
+					"name": "InnoDB Storage Files (*.ibd)"
+				}
+			]
+		}
+	],
+	"documentVersion": 1
+}
